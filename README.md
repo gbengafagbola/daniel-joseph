@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Figma Design
+Open [https://www.figma.com/proto/J13SGER9oFnpJ6jEnc1s3j/Daniel-Joseph-Portfolio?node-id=521%3A373&scaling=scale-down-width&page-id=4%3A216&starting-point-node-id=521%3A373&hide-ui=1](https://www.figma.com/proto/J13SGER9oFnpJ6jEnc1s3j/Daniel-Joseph-Portfolio?node-id=521%3A373&scaling=scale-down-width&page-id=4%3A216&starting-point-node-id=521%3A373&hide-ui=1) to view it in your browser.
+
 ## Available Scripts
 
 In the project directory, you can run:

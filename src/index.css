@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('Euclid Circular A'), url(./assets/fonts/Euclid\ Circular\ A/EuclidCircularA-Light.ttf) format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Axiforma';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Axiforma'), url(./assets/fonts/axiforma/Axiforma-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MADE Outer Sans';
+  src: local('MADE Outer Sans'), url(./assets/fonts/made-outer-sans/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf) format('opentype');
+} */

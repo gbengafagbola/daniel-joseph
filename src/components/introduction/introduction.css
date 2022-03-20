@@ -1,0 +1,19 @@
+
+.main {
+    margin-top: 150px 200px;
+}
+
+.greetings {
+
+}
+
+.description {
+  font-family: 'Bw Vivant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 70px;
+
+  width: 1520px;
+  height: 350px;
+}

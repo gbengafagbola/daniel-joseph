@@ -13,20 +13,20 @@ code {
 }
 
 @font-face {
-  font-family: 'Euclid Circular A';
+  font-family: 'Euclid Circular A Light';
   font-style: normal;
   font-weight: lighter;
   src: local('Euclid Circular A'), url(./assets/fonts/Euclid\ Circular\ A/EuclidCircularA-Light.ttf) format('truetype');
 }
 
-/* @font-face {
-  font-family: 'Axiforma';
+@font-face {
+  font-family: 'Euclid Circular A';
   font-style: normal;
-  font-weight: normal;
-  src: local('Axiforma'), url(./assets/fonts/axiforma/Axiforma-Regular.woff) format('woff');
+  font-weight: medium;
+  src: local('Euclid Circular A'), url(./assets/fonts/Euclid\ Circular\ A/EuclidCircularA-Medium.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'MADE Outer Sans';
-  src: local('MADE Outer Sans'), url(./assets/fonts/made-outer-sans/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf) format('opentype');
-} */
+  font-family: 'Bw Vivant';
+  src: local('Bw Vivant'), url(./assets/fonts/Bw\ Vivant/bw-vivant-light.ttf) format('truetype');
+} 

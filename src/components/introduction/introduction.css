@@ -1,19 +1,47 @@
 
-.main {
-    margin-top: 150px 200px;
+.main-intro {
+    margin: 110px 200px;
 }
 
 .greetings {
+  display: flex;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
 
+span {
+    display: flex;
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    color: #DD55FF;
 }
 
 .description {
   font-family: 'Bw Vivant';
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 70px;
+  font-size: 27px;
+  color: #000;
 
-  width: 1520px;
-  height: 350px;
+  line-height: 60px;
+
+  text-align: start;
+  align-items: start;
+  justify-content: start;
 }

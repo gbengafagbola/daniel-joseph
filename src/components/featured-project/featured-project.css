@@ -13,5 +13,52 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-bottom: 25px;
+}
+
+.planet {
+    padding-left: 1002px;
+    width: 74px;
+    height: 49px;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+}
+
+.project-title {
+    width: 30%;
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+   line-height: 70px;
+   display: flex;
+   cursor: pointer;
+
+   color: #000;
+}
+
+.spec-nota {
+    width: 400px;
+    max-height: 300px;
+    position: absolute;
+    right: 30%;
+    top: 1620px;
+    visibility: hidden;
+}
+
+.project-title:hover .spec-nota {
+    visibility: visible;
+}
+
+.project-preview {
+    width: 70%;
+}
+
+.spec {
+    height: 300px;
+    width: 500px;
+    overflow:hidden;
+    object-fit: cover;
 }

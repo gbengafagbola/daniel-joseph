@@ -1,8 +1,8 @@
+import React from "react";
+import { Routes ,Route, Navigate } from 'react-router-dom';
+
 import Header from "./components/header/header";
-import Introduction from "./components/introduction/introduction";
-import Image from "./components/image/image";
-import FeaturedProject from "./components/featured-project/featured-project";
-import Footer from "./components/footer/footer";
+import Home from './pages/home/home';
 
 
 import './App.css';
@@ -11,10 +11,9 @@ function App() {
   return (
     <>
       <Header />
-      <Introduction />
-      <Image />
-      <FeaturedProject />
-      <Footer />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+      </Routes>
     </>
   );
 }

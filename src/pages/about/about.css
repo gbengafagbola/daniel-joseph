@@ -1,0 +1,53 @@
+
+.about-container {
+ padding: 50px 200px;    
+}
+
+
+.about-title {
+  font-family: 'Bw Vivant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.planet {
+    padding-left: 952px;
+    width: 74px;
+    height: 49px;
+    padding-bottom: 20px;
+
+}
+
+.about-me {
+    display: flex;
+}
+
+.my-pic {
+    flex: 6;
+    height: 400px;
+    width: 150px;
+     /* overflow:hidden; */
+    /* object-fit: cover;  */
+}
+
+
+.my-story {
+    flex: 6;
+    font-family: 'Euclid Circular A Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+   line-height: 30px;
+
+   width: 555px;
+   height: 474px;
+}
+
+.iam {
+    font-family: Euclid Circular A;
+}

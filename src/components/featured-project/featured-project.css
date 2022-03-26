@@ -58,7 +58,7 @@ padding-top: 20px;
     max-height: 300px;
     position: absolute;
     right: 30%;
-    top: 1620px;
+    top: 1750px;
     visibility: hidden;
 }
 
@@ -79,7 +79,7 @@ padding-top: 20px;
     max-height: 300px;
     position: absolute;
     right: 30%;
-    top: 1920px;
+    top: 2100px;
     visibility: hidden;
 }
 
@@ -100,7 +100,7 @@ padding-top: 20px;
 .shang-it {
     position: absolute;
     right: 30%;
-    top: 2150px;
+    top: 2250px;
     visibility: hidden;
 }
 
@@ -121,7 +121,7 @@ padding-top: 20px;
 .drone-app {
     position: absolute;
     right: 30%;
-    top: 2500px;
+    top: 2620px;
     visibility: hidden;
 }
 
@@ -142,7 +142,7 @@ padding-top: 20px;
 .tribal-play {
     position: absolute;
     right: 15%;
-    top: 2900px;
+    top: 3100px;
     visibility: hidden;
 }
 

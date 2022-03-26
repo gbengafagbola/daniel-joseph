@@ -6,14 +6,14 @@ import Footer from "../../components/footer/footer";
 
 import './home.css';
 
-function Home() {
+function Home({darkMode}) {
   return (
-    <>
+    <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Introduction />
       <Image />
       <FeaturedProject />
       <Footer />
-    </>
+    </div>
   );
 }
 

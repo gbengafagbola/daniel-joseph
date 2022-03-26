@@ -30,6 +30,7 @@ span {
     justify-content: center;
     padding-left: 5px;
     color: #DD55FF;
+    cursor: pointer;
 }
 
 .description {
@@ -144,3 +145,24 @@ span {
     opacity: 1;
   }
 }
+
+
+
+/* .rocket {
+  width:24px;
+  height:24px;
+  position:relative;
+  -webkit-animation:glide 2s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes glide  {
+  from {
+     left:0px;
+     top:0px;
+  }
+  
+  to {
+     left:0px;
+     top:20px;
+  }
+} */

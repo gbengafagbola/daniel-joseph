@@ -23,21 +23,36 @@
 .projects {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 200px;
 }
 
 .project-title {
-    width: 30%;
+    width: 100%;
     font-family: 'Bw Vivant';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
    line-height: 70px;
-   display: flex;
-   cursor: pointer;
-
    color: #000;
+
+   cursor: pointer;
 }
 
+.project-content {
+padding-top: 20px;
+  font-family: 'Euclid Circular A Light';
+  font-size: 14px;
+  line-height: 35px;
+
+    width: 400px;
+}
+
+
+/* spec nota */
 .spec-nota {
     width: 400px;
     max-height: 300px;
@@ -51,13 +66,93 @@
     visibility: visible;
 }
 
-.project-preview {
-    width: 70%;
-}
-
 .spec {
     height: 300px;
     width: 500px;
+    overflow:hidden;
+    object-fit: cover;
+}
+
+/* ile wa */
+.ile-wa {
+    width: 400px;
+    max-height: 300px;
+    position: absolute;
+    right: 30%;
+    top: 1920px;
+    visibility: hidden;
+}
+
+.project-title:hover .ile-wa {
+    visibility: visible;
+}
+
+.ile {
+    height: 300px;
+    width: 500px;
+    overflow:hidden;
+    object-fit: cover;
+}
+
+
+/* Shang It */
+
+.shang-it {
+    position: absolute;
+    right: 30%;
+    top: 2150px;
+    visibility: hidden;
+}
+
+.project-title:hover .shang-it  {
+    visibility: visible;
+}
+
+.shang {
+    height: 600px;
+    width: 400px;
+    overflow:hidden;
+    object-fit: cover;
+}
+
+
+/* Drone App */
+
+.drone-app {
+    position: absolute;
+    right: 30%;
+    top: 2500px;
+    visibility: hidden;
+}
+
+.project-title:hover .drone-app  {
+    visibility: visible;
+}
+
+.drone {
+    height: 600px;
+    width: 400px;
+    overflow:hidden;
+    object-fit: cover;
+}
+
+
+/* Tribal Play */
+
+.tribal-play {
+    position: absolute;
+    right: 15%;
+    top: 2900px;
+    visibility: hidden;
+}
+
+.project-title:hover .tribal-play  {
+    visibility: visible;
+}
+
+.tribal {
+    height: 400px;
+    width: 600px;
     overflow:hidden;
     object-fit: cover;
 }

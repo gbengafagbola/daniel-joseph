@@ -51,6 +51,7 @@
 
   .copyright {
     flex: 6;
+    font-family: 'Euclid Circular A Light';
     font-size: 14px;
     line-height: 23px;
 
@@ -61,7 +62,8 @@
     flex: 6;
     display: flex;
     justify-content: flex-end;
-
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
   }
 
   .socials {

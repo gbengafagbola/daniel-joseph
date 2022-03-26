@@ -48,6 +48,7 @@
   }
 
   .mode {
+    padding-top: 4px;
     height: 18px;
     width: 16px;
   }
@@ -66,7 +67,7 @@
   .nav-item {
     margin-right: 22px;
     margin-left: 22px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     line-height: 21px;
   }

@@ -1,0 +1,53 @@
+.spec-nota-container {
+    padding: 50px 200px;  
+}
+
+.spec-nota-header {
+    font-family: 'Bw Vivant';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 56px;
+     /* line-height: 96px; */
+   
+     /* text-align: center; */
+     padding-bottom: 20px;
+}
+
+.spec-nota-header-brief {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.spec-cover {
+    object-fit: cover;
+    padding-bottom: 80px;
+}
+
+.impact-role {
+    display: flex;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.the-title {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    /* line-height: 48px; */
+    padding-bottom: 16px;
+}
+
+.the-content {
+    font-family: 'Euclid Circular A Light';
+    line-height: 30px;
+}
+
+.impact {
+    flex: 6;
+}
+
+.role {
+    flex: 6;
+}

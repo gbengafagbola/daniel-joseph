@@ -10,7 +10,7 @@ function Work({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <div className='work-container'>
-          <div className='work-title'>Work</div>
+          <div className='work-header'>Work</div>
 
           {/* Spec Nota and Ile Wa */}
           <div className='project-grid'>
@@ -48,7 +48,7 @@ function Work({darkMode}) {
               <div className='project-content'>Giving billions of people a lasting movie experience feel.</div>
           </div>
 
-          <div className='other-project'>check other cool projects</div>
+          <div className='other-project'>check out other cool projects</div>
 
       </div>
     </div>

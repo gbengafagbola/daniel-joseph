@@ -26,7 +26,7 @@
 
 .impact-role {
     display: flex;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     gap: 40px;
 }
 
@@ -34,7 +34,7 @@
     font-family: 'Bw Vivant';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     /* line-height: 48px; */
     padding-bottom: 16px;
 }
@@ -42,6 +42,7 @@
 .the-content {
     font-family: 'Euclid Circular A Light';
     line-height: 30px;
+    padding-bottom: 80px;
 }
 
 .impact {
@@ -50,4 +51,138 @@
 
 .role {
     flex: 6;
+}
+
+.sub-title {
+    font-family: 'Bw Vivant';
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.sub-content {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.sub-img {
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+.current-state {
+    display: flex;
+    /* padding-bottom: 80px; */
+    gap: 40px;
+}
+
+.col1 {
+    flex: 4;
+}
+
+.col2 {
+    flex: 4;
+}
+
+.col3 {
+    flex: 4;
+}
+
+.the-title-top {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 48px; */
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+
+.the-title-top2 {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 48px; */
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.the-content-low {
+    font-family: 'Euclid Circular A Light';
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.state-title {
+    font-family: 'Bw Vivant';
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+.state-content {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+
+.img-sketch {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.img-low-fi {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.img-annotation {
+    width: 510px;
+    height: 365px;
+    object-fit: cover;
+    padding-bottom: 40px;
+    padding-left: 250px;
+}
+
+.img-colab {
+    object-fit: cover;
+    padding-bottom: 40px;
+    width: 326px;
+    height: 233px;
+    padding-left: 50px;
+}
+
+.img-task {
+    width: 653px;
+    height: 366px;
+    padding-top: 20px;
+    object-fit: cover;
+}
+
+.img-document {
+    width: 653px;
+    height: 366px;
+    padding-left: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    object-fit: cover;
+}
+
+.img-task-over {
+    width: 653px;
+    height: 366px;
+    padding-left: 150px;
+}
+
+.team {
+    font-family: 'Euclid Circular A';
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.team-mate {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
 }

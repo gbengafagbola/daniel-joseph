@@ -1,0 +1,55 @@
+.shange-container {
+    padding: 50px 200px;  
+}
+
+.shange-header {
+    font-family: 'Bw Vivant';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 56px;
+     /* line-height: 96px; */
+   
+     /* text-align: center; */
+     padding-bottom: 20px;
+}
+
+.shange-header-brief {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.shange-cover {
+    object-fit: cover;
+    padding-bottom: 80px;
+}
+
+.the-content-low2 {
+    font-family: 'Euclid Circular A Light';
+    line-height: 30px;
+    /* padding-bottom: 10px; */
+}
+
+.sub-space {
+    padding-bottom: 40px;
+}
+
+
+.sub-title1 {
+    font-family: 'Bw Vivant';
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.sub-content1 {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.extra {
+    padding-bottom: 80px;
+}
+
+

@@ -1,0 +1,45 @@
+.drone-container {
+    padding: 50px 200px;  
+}
+
+.drone-header {
+    font-family: 'Bw Vivant';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 56px;
+     /* line-height: 96px; */
+   
+     /* text-align: center; */
+     padding-bottom: 20px;
+}
+
+.drone-header-brief {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.drone-cover {
+    object-fit: cover;
+    padding-bottom: 80px;
+}
+
+.design-title {
+    font-family: 'Bw Vivant';
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.design-content {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+
+.design-sub-content {
+    font-family: 'Bw Vivant';
+    font-size: 24px;
+    padding-bottom: 80px;
+    line-height: 50px;
+}

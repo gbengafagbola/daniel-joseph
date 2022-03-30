@@ -7,6 +7,8 @@ import ShangeItIdentity1 from '../../assets/images/Shange It Identity 1.png';
 import ShangeItIdentity2 from '../../assets/images/Shange It Identity 2.png';
 import ShangeItImage1 from '../../assets/images/Shange It Image 1.png';
 import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
+import ShangeItLogo from '../../assets/images/Shange It Logo.png';
+
 
 
 
@@ -50,27 +52,44 @@ function ShangeIt({darkMode}) {
             <div className='spec-img space'> <img src={ShangeItIdentity1} width="100%" height="100%" alt=''/></div>
             <div className='spec-img space'> <img src={ShangeItIdentity2} width="100%" height="100%" alt=''/></div>
 
+            {/* Impact and Role */}
+            <div className='impact-role'>
+                <div className='impact-col'>
+                {/* Team */}
+                    <div className='team'>Team</div>
+                    <div className='team-mate space'>
+                    SF Pro Text<br /> <br />
+                    Autour One<br />
+                    </div>
 
+                    <div className='team'>Logo</div>
+                    <div className='spec-img space shange-it-logo'> <img src={ShangeItLogo} width="100%" height="100%" alt=''/></div>
 
+                </div>
 
+              <div className='role-col'>
+                  <div className='team'>Color</div>
+                  <div className='top-color'>
+                      <div className='color1'>
+                          <div className='height-width clr1'></div>
+                          <div className='color-title clr-space'>#021F6F</div>
+                      </div>
+                      <div className='color2'>
+                          <div className='height-width clr2'></div>
+                          <div className='color-title clr-space'>#DB1F48</div>
+                      </div>
+                      <div className='color3'>
+                          <div className='height-width clr3'></div>
+                          <div className='color-title clr-space'>#F6735A</div>
+                      </div>
+                      <div className='color4'>
+                          <div className='height-width clr4'></div>
+                          <div className='color-title clr-space'>#FFB552</div>
+                      </div>
+                  </div>
+              </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          </div>
 
             {/* Normal Images */}
             <div className='project-grid'>
@@ -101,7 +120,7 @@ function ShangeIt({darkMode}) {
                 </ul>
             </div>
 
-            {/* Aftermath and Retrospective */}
+            {/* Business Goals */}
             <div className='the-title'>Business Goals and Opportunity for impact</div>
             <div className='the-content-low2'>I pitched the following idea with the team to fasten our awareness of the Shange It app.</div>
               <ul className='sub-content space'>

@@ -52,4 +52,63 @@
     padding-bottom: 80px;
 }
 
+.shange-it-logo {
+    width: 96px;
+    height: 55px;
+}
 
+.top-color {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.color1 {
+    flex: 2;
+}
+
+.color2 {
+    flex: 2;
+}
+
+.color3 {
+    flex: 2;
+}
+
+.color4 {
+    flex: 2;
+}
+
+.color-title {
+    font-family: 'Euclid Circular A Light';
+    font-size: 14px;
+    line-height: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.height-width {
+    height: 120px;
+    width: 90px;
+    border-radius: 10px;
+    /* padding-bottom: 40px; */
+}
+
+.clr1 {
+    background-color: #021F6F;
+}
+
+.clr2 {
+    background-color: #DB1F48;
+}
+
+.clr3 {
+    background-color: #F6735A;
+}
+
+.clr4 {
+    background-color: #FFB552;
+}
+
+.clr-space {
+    padding-top: 10px;
+}

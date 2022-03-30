@@ -30,6 +30,15 @@
     gap: 40px;
 }
 
+.impact-col {
+    flex: 6;
+}
+
+.role-col {
+    flex: 6;
+}
+
+
 .the-title {
     font-family: 'Bw Vivant';
     font-style: normal;

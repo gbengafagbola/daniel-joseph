@@ -3,6 +3,11 @@ import ShangePrototype from '../../assets/images/Shange It Prototype.png';
 import ShangeHiFi from '../../assets/images/Shange It - Hi Fi.png';
 import ShangeSketch from '../../assets/images/Shange It - Sketch.png';
 import ShangeLoFi from '../../assets/images/Shange It - LoFi.png';
+import ShangeItIdentity1 from '../../assets/images/Shange It Identity 1.png';
+import ShangeItIdentity2 from '../../assets/images/Shange It Identity 2.png';
+import ShangeItImage1 from '../../assets/images/Shange It Image 1.png';
+import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
+
 
 
 import './shange-it.css';
@@ -41,7 +46,9 @@ function ShangeIt({darkMode}) {
 
             {/* Identity */}
             <div className='the-title'>Identity</div>
-            <div className='the-content'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
+            <div className='the-content-low'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
+            <div className='spec-img space'> <img src={ShangeItIdentity1} width="100%" height="100%" alt=''/></div>
+            <div className='spec-img space'> <img src={ShangeItIdentity2} width="100%" height="100%" alt=''/></div>
 
 
 
@@ -64,6 +71,17 @@ function ShangeIt({darkMode}) {
 
 
 
+
+            {/* Normal Images */}
+            <div className='project-grid'>
+                <div className='container1'>
+                  <div className='spec-img'> <img src={ShangeItImage1} width="100%" height="100%" alt=''/></div>
+                </div>
+
+                <div className='container2'>
+                  <div className='ile-img'> <img src={ShangeItImage2} width="100%" height="100%" alt=''/></div>
+               </div>
+            </div>
 
             {/* Identity */}
             <div className='the-title'>The mobile app</div>
@@ -127,7 +145,7 @@ function ShangeIt({darkMode}) {
 
             {/* PRODUCT AWARENESS */}
             <div className='sub-title1'>PRODUCT AWARENESS</div>
-            <div className='sub-content1'>Having everyone use and not just have Shange It  is what we are striving for and should be met. We’ll use different marketing channel to publicize the platform. Instagram and Youtube is my first got to for ads as most people spend alot of time on does platforms.</div>
+            <div className='sub-content1'>Download of the Shange It app doesn't assure us of active and users who transact on the platform. Having everyone use and not just have Shange It is what we are striving for and should be met. We’ll use different marketing channel to publicize the platform. Instagram and Youtube is my first got to for ads as most people spend alot of time on does platforms.</div>
 
             {/* MULTIPLE BENEFICIARIES IN A SINGLE TRANSACTION*/}
             <div className='sub-title1'>MULTIPLE BENEFICIARIES IN A SINGLE TRANSACTION</div>

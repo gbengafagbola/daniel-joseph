@@ -23,7 +23,7 @@ function SpecNota({darkMode}) {
       <div className='spec-nota-container'>
           <div className='spec-nota-header'>Spec Nota</div>
           
-          <div className='spec-nota-header-brief'>Here is how I helped redesign a project management platform for a smooth, modern and friendly experience.</div>
+          <div className='spec-nota-header-brief'>Modern and seemless project management tool.</div>
           
           {/* Cover Image */}
           <div className='spec-cover'> <img src={SpecCover} width="100%" height="100%" alt=''/></div>

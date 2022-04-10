@@ -20,7 +20,7 @@ function ShangeIt({darkMode}) {
 
       <div className='shange-container'>
           <div className='shange-header'>Shange It</div>
-          <div className='shange-header-brief'>Here is how I helped a startup create an easy to use p2p currency exchange platform.</div>
+          <div className='shange-header-brief'>Creating an easy to use p2p currency exchange platform for a Startup.</div>
           
           {/* Cover Image */}
           <div className='shange-cover'> <img src={ShangeCover} width="100%" height="100%" alt=''/></div>
@@ -94,7 +94,7 @@ function ShangeIt({darkMode}) {
             {/* Normal Images */}
             <div className='project-grid'>
                 <div className='container1'>
-                  <div className='spec-img'> <img src={ShangeItImage1} width="100%" height="100%" alt=''/></div>
+                  <div className='ile-img'> <img src={ShangeItImage1} width="100%" height="100%" alt=''/></div>
                 </div>
 
                 <div className='container2'>

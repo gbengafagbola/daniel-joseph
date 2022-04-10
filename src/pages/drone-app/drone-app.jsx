@@ -14,7 +14,7 @@ function DroneApp({darkMode}) {
 
             <div className='drone-header'>Drone App</div>
           
-            <div className='drone-header-brief'>Here is how I helped in aiding farmers in precision farming via data gathering and analysis, a project submitted to the University of Port Harcourt.</div>
+            <div className='drone-header-brief'>Aiding farmers in precision farming via data gathering and analysis.</div>
           
             {/* Cover Image */}
             <div className='drone-cover'> <img src={DroneCover} width="100%" height="100%" alt=''/></div>

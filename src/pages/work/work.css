@@ -32,6 +32,7 @@
 
 .work-project-content {
     font-family: 'Euclid Circular A Light';
+    font-size: 16px;
     line-height: 30px;
 }
 
@@ -69,7 +70,7 @@
 
 .drone-img {
     object-fit: cover;
-    width: 396px auto;
+    /* width: 396px auto; */
     height: 547px auto;
 }
 
@@ -101,7 +102,7 @@
 @media only screen and (max-width: 1200px) {
 
     .work-container {
-        padding: 30px 50px;  
+        padding: 30px 80px;  
     }
         
     .work-header {
@@ -114,36 +115,24 @@
          padding-bottom: 20px;
        }
 
-    .work-drone-container {
-        padding-top: 40px;
+       .work-drone-container {
+        padding-top: 80px;
+        padding-left: 302px;
     }
 
-    .project-grid {
-        display: block;
-        flex-direction: row;
-    }
-    
-    .container1 {
-        height: auto;
+    .tribal-img {
+        object-fit: cover;
+        align-items: center;
         width: auto;
-        flex: 12;
-    }
-    
-    .container2 {
-        flex: 12;
-        font-family: 'Euclid Circular A Light';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-       line-height: 30px;
+        height: auto;
     }
 }
 
 
-/* Responsiveness @ 450px */
-@media only screen and (max-width: 600px) {
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
     .work-container{
-        padding: 30px 20px;
+        padding: 30px 50px;
     }
 
     .work-header {
@@ -157,19 +146,20 @@
       }
 
     .work-header-brief {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
-    .drone-container {
-        width: auto;
+    .work-drone-container {
+        padding-left: 0px;
     }
 
     .work-shange-container {
-        padding-left: 100px;
+        padding-left: 0px;
     }
 
     .work-tribal-container {
-        padding-top: 40px;
+        padding-top: 60px;
+        width: auto;
     }
 
     .other-project {
@@ -177,7 +167,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
-        padding-top: 40px;
+        padding-top: 60px;
         padding-bottom: 20px;  
         text-align: center;
     }
@@ -193,8 +183,8 @@
 
     .project-grid {
         display: flex;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         gap: 40px;
     }
 
@@ -211,5 +201,12 @@
     
     .container2 {
         flex: 12;
+    }
+}
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .work-container{
+        padding: 30px 20px;
     }
 }

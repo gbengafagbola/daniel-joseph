@@ -107,8 +107,141 @@ line-height: 67px;
 
 .shy {
     font-family: 'Euclid Circular A';
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
     text-align: center;
     padding-top: 80px;
+}
+
+/* Responsiveness Tab */
+
+@media only screen and (max-width: 1200px) {
+    /* .employment-container {
+        padding-top: 20px;
+        } */
+
+    .work-title {
+        font-family: 'Bw Vivant';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 40px;
+       line-height: 67px;
+       
+       }
+       
+       .experience {
+           padding-bottom: 80px;
+           padding-top: 80px;
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           justify-content: flex-start;
+       
+           gap: 40px;
+       }
+}
+
+
+
+/* Responsiveness Phone */
+
+@media only screen and (max-width: 767px) {
+    .employment-container {
+        padding-top: 0px;
+        }
+        
+    .work-title {
+        font-family: 'Bw Vivant';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;
+       line-height: 40px;
+       
+       }
+
+    .experience {
+        padding-bottom: 60px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    
+    .job-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    
+    .time-spent {
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 30px;
+        padding-top: 8px;
+    }
+    
+    .my-resume {
+      font-family: 'Bw Vivant';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+
+    .space {
+        padding-bottom: 60px;
+    }
+    
+    .request {
+        font-family: 'Euclid Circular A Light';
+        padding-top: 16px;
+        padding-bottom: 60px;
+    }
+    
+    
+    .write-up {
+        padding-top: 60px;
+        /* gap: 10px; */
+        display: block;
+        flex-direction: row;
+    }
+
+    /* .write-container1 {
+        flex: 12;
+    }
+
+    .write-container2 {
+        flex: 12;
+    }
+     */
+    .write-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 16px;
+    }
+
+    .shy {
+        font-family: 'Euclid Circular A';
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .read-more {
+        font-family: 'Euclid Circular A Light';
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
 }

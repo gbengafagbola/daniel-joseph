@@ -15,7 +15,7 @@
 
 .ile-header-brief {
     font-family: 'Euclid Circular A Light';
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 80px;
 }
 
@@ -80,7 +80,7 @@
 @media only screen and (max-width: 1200px) {
 
     .ile-container {
-        padding: 30px 50px;  
+        padding: 30px 80px;  
     }
 
     .ile-header {
@@ -95,14 +95,14 @@
 
 
 
-/* Responsiveness @ 450px */
-@media only screen and (max-width: 600px) {
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
     .ile-container{
-        padding: 30px 20px;
+        padding: 30px 50px;
     }
 
     .ile-header-brief {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .ile-header {
@@ -115,7 +115,7 @@
 
     .ile-cover {
         object-fit: cover;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .the-title {
@@ -130,7 +130,7 @@
     .the-content {
         font-family: 'Euclid Circular A Light';
         line-height: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .sub-title {
@@ -141,7 +141,7 @@
     
     .sub-content {
         font-family: 'Euclid Circular A Light';
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
     
@@ -156,7 +156,7 @@
         font-weight: 400;
         font-size: 24px;
         /* line-height: 48px; */
-        padding-top: 40px;
+        padding-top: 60px;
         padding-bottom: 16px;
     }
     
@@ -178,9 +178,9 @@
 
     .state-content {
         font-family: 'Euclid Circular A Light';
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
     
     .img-sketch {
@@ -201,7 +201,7 @@
 
     .design-content {
         font-family: 'Euclid Circular A Light';
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
         padding-bottom: 8px;
     }
@@ -211,5 +211,13 @@
         font-size: 24px;
         padding-bottom: 20px;
         line-height: 50px;
+    }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .work-container{
+        padding: 30px 20px;
     }
 }

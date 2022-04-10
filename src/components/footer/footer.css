@@ -3,7 +3,7 @@
    font-family: 'Euclid Circular A';
    font-style: normal;
    font-weight: 400;
-   font-size: 14px;
+   font-size: 16px;
    line-height: 23px;
 
    text-align: center;
@@ -48,7 +48,7 @@
   .copyright {
     flex: 6;
     font-family: 'Euclid Circular A Light';
-    font-size: 14px;
+    font-size: 16px;
     line-height: 23px;
 
     padding-top: 15px;
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: flex-end;
     font-family: 'Euclid Circular A Light';
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .socials {
@@ -68,6 +68,6 @@
     cursor: pointer;
     margin-left: 27px;
 
-    font-size: 14px;
+    font-size: 16px;
     line-height: 23px;
   }  

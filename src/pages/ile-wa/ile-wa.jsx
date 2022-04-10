@@ -23,7 +23,7 @@ function IleWa({darkMode}) {
 
       <div className='ile-container'>
           <div className='ile-header'>Ile Wa</div>
-          <div className='ile-header-brief'>I provided a solution to a platform who needed to increase profit by reaching potential audience through identity and website UI design.</div>
+          <div className='ile-header-brief'>A unique identity and a PWA website design.</div>
           
           {/* Cover Image */}
           <div className='ile-cover'> <img src={IleWaCover} width="100%" height="100%" alt=''/></div>

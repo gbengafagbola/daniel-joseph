@@ -49,14 +49,14 @@ export default function Employment() {
             <div className='work-title'>I also write</div>
 
             <div className='write-up'>
-              <div className='container'>
+              <div className='write-container1'>
                 <div className='write-title'>Tech  Beginner? It’s Cloudy</div>
                 <div className='write-content'>It can be confusing at first where to start your career in tech. This is not a now issue, most people who are don in their field also have passed thro...</div>
                 <div className='read-more'>READ MORE<SideArrow className='side-arrow'/></div>
 
               </div>
 
-              <div className='container'>
+              <div className='write-container2'>
                 <div className='write-title'>Pick it up. Live in the moment.</div>
                 <div className='write-content'>Most persons have struggled with living in the moment just because they’ve carried the worlds burden on themselves. Carry this burden ... </div>
               <div className='read-more'>READ MORE<SideArrow className='side-arrow'/></div>

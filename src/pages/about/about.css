@@ -25,14 +25,12 @@
 
 .about-me {
     display: flex;
+    gap: 40px;
 }
 
 .my-pic {
     flex: 6;
-    height: 400px;
-    width: 150px;
-     /* overflow:hidden; */
-    /* object-fit: cover;  */
+    object-fit: cover; 
 }
 
 
@@ -41,11 +39,8 @@
     font-family: 'Euclid Circular A Light';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
    line-height: 30px;
-
-   width: 555px;
-   height: 474px;
 }
 
 .iam {
@@ -57,7 +52,7 @@
 @media only screen and (max-width: 1200px) {
 
     .about-container {
-        padding: 50px 50px;  
+        padding: 30px 80px;  
     }
 
     .planet {
@@ -67,29 +62,70 @@
         padding-bottom: 20px;
     }
 
-    .about-me {
-        display: block;
-        flex-direction: row;
-    }
-
-    .my-pic {
-        height: auto;
-        width: auto;
-        flex: 12;
-    }
-    
-    .my-story {
-        flex: 12;
-        font-family: 'Euclid Circular A Light';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-       line-height: 30px;
-    }
-
     .iam {
         font-family: Euclid Circular A;
         padding-top: 40px;
     }
 
+    .about-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 96px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+}
+
+
+
+/* Responsiveness Tab2 */
+
+@media only screen and (max-width: 780px) {
+
+    .about-container {
+        padding: 30px 50px;  
+    }
+
+    .about-me {
+        display: block;
+        flex-direction: row;
+        padding-bottom: 60px;
+    }
+    .iam {
+        font-family: Euclid Circular A;
+        padding-top: 20px;
+    }
+
+    .my-pic {
+        /* height: auto;
+        width: auto; */
+        object-fit: cover;
+        flex: 12;
+        padding-bottom: 40px;
+    }
+    
+    .my-story {
+        flex: 12;
+    }
+
+    .about-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 96px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .work-container{
+        padding: 30px 20px;
+    }
 }

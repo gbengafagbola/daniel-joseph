@@ -15,7 +15,7 @@
 
 .tribal-header-brief {
     font-family: 'Euclid Circular A Light';
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 80px;
 }
 
@@ -56,7 +56,7 @@
 @media only screen and (max-width: 1200px) {
 
     .tribal-container {
-        padding: 30px 50px;  
+        padding: 30px 80px;  
     }
 
     .tribal-header {
@@ -71,14 +71,14 @@
 
 
 
-/* Responsiveness @ 450px */
-@media only screen and (max-width: 600px) {
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
     .tribal-container{
-        padding: 30px 20px;
+        padding: 30px 50px;
     }
 
     .tribal-header-brief {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .tribal-header {
@@ -91,7 +91,7 @@
 
     .tribal-cover {
         object-fit: cover;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .the-title {
@@ -106,7 +106,7 @@
     .the-content {
         font-family: 'Euclid Circular A Light';
         line-height: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .sub-title {
@@ -117,7 +117,7 @@
     
     .sub-content {
         font-family: 'Euclid Circular A Light';
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
     
@@ -154,9 +154,9 @@
 
     .state-content {
         font-family: 'Euclid Circular A Light';
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
     
     .img-sketch {
@@ -170,7 +170,7 @@
     }
 
     .extra {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .sub-space {
@@ -178,10 +178,18 @@
     }
 
     .tribal-high-fi {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
     
     .tribal-prototype {
-        padding-bottom: 40px;
+        padding-bottom: 60px;
+    }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .work-container{
+        padding: 30px 20px;
     }
 }

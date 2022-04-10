@@ -94,6 +94,10 @@
         padding-bottom: 60px;
     }
 
+    .overview-role {
+        display: block;
+        flex-direction: row;
+    }
     .the-title {
         font-family: 'Bw Vivant';
         font-style: normal;

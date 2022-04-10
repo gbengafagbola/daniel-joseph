@@ -239,6 +239,24 @@
         padding-bottom: 60px;
     }
 
+    .impact-role {
+        display: block;
+        flex-direction: row;
+    }
+    
+    .impact-col {
+        flex: 6;
+    }
+    
+    .role-col {
+        flex: 6;
+    }
+
+    .current-state {
+        display: block;
+        flex-direction: row;
+    }
+
     .the-title {
         font-family: 'Bw Vivant';
         font-style: normal;

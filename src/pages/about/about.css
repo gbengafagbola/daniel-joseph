@@ -3,7 +3,6 @@
  padding: 50px 200px;    
 }
 
-
 .about-title {
   font-family: 'Bw Vivant';
   font-style: normal;
@@ -33,7 +32,6 @@
     object-fit: cover; 
 }
 
-
 .my-story {
     flex: 6;
     font-family: 'Euclid Circular A Light';
@@ -48,7 +46,6 @@
 }
 
 /* Responsiveness @ 1000px */
-
 @media only screen and (max-width: 1200px) {
 
     .about-container {
@@ -82,7 +79,6 @@
 
 
 /* Responsiveness Tab2 */
-
 @media only screen and (max-width: 780px) {
 
     .about-container {

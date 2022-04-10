@@ -167,3 +167,43 @@ span {
      top:20px;
   }
 } */
+
+@media only screen and (max-width: 1000px) {
+
+  .main-intro {
+    padding: 30px 20px;
+}
+
+.greetings {
+  display: flex;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 15px;
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+
+span {
+  display: flex;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 15px;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  color: #DD55FF;
+  cursor: pointer;
+}
+
+
+}

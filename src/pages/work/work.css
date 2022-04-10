@@ -20,17 +20,17 @@
     gap: 80px;
 }
 
-.project-title {
+.work-project-title {
     font-family: 'Bw Vivant';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     /* line-height: 48px; */
-    padding-bottom: 1px;
+    padding-bottom: 16px;
     padding-top: 16px;
 }
 
-.project-content {
+.work-project-content {
     font-family: 'Euclid Circular A Light';
     line-height: 30px;
 }
@@ -45,35 +45,35 @@
 }
 
 .spec-img {
-    /* flex: 6; */
-    /* height: 400px; */
-    /* width: 150px; */
+    height: auto;
+    width: auto;
      overflow:hidden;
     object-fit: cover; 
 }
 
 .ile-img {
+    width: auto;
     object-fit: cover
 }
 
 .shange-img {
     object-fit: cover;
-    width: 680px;
-    height: 504px;
+    width: 680px auto;
+    height: 504px auto;
 }
 
-.drone-container {
+.work-drone-container {
     padding-top: 80px;
     padding-left: 502px;
 }
 
 .drone-img {
     object-fit: cover;
-    width: 396px;
-    height: 547px;
+    width: 396px auto;
+    height: 547px auto;
 }
 
-.tribal-container {
+.work-tribal-container {
     padding-top: 80px;
 }
 
@@ -91,6 +91,125 @@
     font-size: 40px;
     padding-top: 80px;
     padding-bottom: 40px;
-
     text-align: center;
+}
+
+
+
+/* Responsiveness @ 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    .work-container {
+        padding: 30px 50px;  
+    }
+        
+    .work-header {
+         font-family: 'Bw Vivant';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 56px;
+         line-height: 96px;      
+         text-align: center;
+         padding-bottom: 20px;
+       }
+
+    .work-drone-container {
+        padding-top: 40px;
+    }
+
+    .project-grid {
+        display: block;
+        flex-direction: row;
+    }
+    
+    .container1 {
+        height: auto;
+        width: auto;
+        flex: 12;
+    }
+    
+    .container2 {
+        flex: 12;
+        font-family: 'Euclid Circular A Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+       line-height: 30px;
+    }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 600px) {
+    .work-container{
+        padding: 30px 20px;
+    }
+
+    .work-header {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 96px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+    .work-header-brief {
+        padding-bottom: 40px;
+    }
+
+    .drone-container {
+        width: auto;
+    }
+
+    .work-shange-container {
+        padding-left: 100px;
+    }
+
+    .work-tribal-container {
+        padding-top: 40px;
+    }
+
+    .other-project {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 20px;  
+        text-align: center;
+    }
+
+    .project-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        padding-bottom: 1px;
+        padding-top: 16px;
+    }
+
+    .project-grid {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 40px;
+    }
+
+    .project-grid {
+        display: block;
+        flex-direction: row;
+    }
+    
+    .container1 {
+        height: auto;
+        width: auto;
+        flex: 12;
+    }
+    
+    .container2 {
+        flex: 12;
+    }
 }

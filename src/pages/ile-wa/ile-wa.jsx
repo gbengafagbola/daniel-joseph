@@ -21,7 +21,7 @@ function IleWa({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
 
-      <div className='shange-container'>
+      <div className='ile-container'>
           <div className='ile-header'>Ile Wa</div>
           <div className='ile-header-brief'>I provided a solution to a platform who needed to increase profit by reaching potential audience through identity and website UI design.</div>
           

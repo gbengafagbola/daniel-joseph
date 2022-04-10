@@ -45,3 +45,143 @@
 .tribal-prototype {
     padding-bottom: 80px;
 }
+
+
+
+
+
+
+
+/* Responsiveness @ 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .tribal-container {
+        padding: 30px 50px;  
+    }
+
+    .tribal-header {
+        font-family: 'Bw Vivant';
+         /* font-style: normal; */
+         font-weight: 400;
+         font-size: 40px;
+         padding-bottom: 20px;
+    }
+
+}
+
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 600px) {
+    .tribal-container{
+        padding: 30px 20px;
+    }
+
+    .tribal-header-brief {
+        padding-bottom: 40px;
+    }
+
+    .tribal-header {
+        font-family: 'Bw Vivant';
+         /* font-style: normal; */
+         font-weight: 400;
+         font-size: 40px;
+         padding-bottom: 20px;
+    }
+
+    .tribal-cover {
+        object-fit: cover;
+        padding-bottom: 40px;
+    }
+
+    .the-title {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        /* line-height: 48px; */
+        padding-bottom: 16px;
+    }
+
+    .the-content {
+        font-family: 'Euclid Circular A Light';
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
+    .sub-title {
+        font-family: 'Bw Vivant';
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+    
+    .sub-content {
+        font-family: 'Euclid Circular A Light';
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .sub-img {
+        object-fit: cover;
+        padding-bottom: 20px;
+    }
+
+    .the-title-top {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        /* line-height: 48px; */
+        padding-top: 40px;
+        padding-bottom: 16px;
+    }
+    
+    .the-title-top2 {
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        /* line-height: 48px; */
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .the-content-low {
+        font-family: 'Euclid Circular A Light';
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    .state-content {
+        font-family: 'Euclid Circular A Light';
+        font-size: 14px;
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .img-sketch {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .img-low-fi {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .extra {
+        padding-bottom: 40px;
+    }
+
+    .sub-space {
+        padding-bottom: 20px;
+    }
+
+    .tribal-high-fi {
+        padding-bottom: 40px;
+    }
+    
+    .tribal-prototype {
+        padding-bottom: 40px;
+    }
+}

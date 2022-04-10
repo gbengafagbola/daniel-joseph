@@ -12,7 +12,7 @@ function DroneApp({darkMode}) {
 
         <div className='drone-container'>
 
-            <div className='drone-header'>Tribal Play</div>
+            <div className='drone-header'>Drone App</div>
           
             <div className='drone-header-brief'>Here is how I helped in aiding farmers in precision farming via data gathering and analysis, a project submitted to the University of Port Harcourt.</div>
           
@@ -98,7 +98,7 @@ function DroneApp({darkMode}) {
             <div className='the-content'>We already had our assumptions and provided some screens based on the feedbacks we had, I advocated conducting user interviews to understand to what extent the solution was effective. I also encouraged Gbenga, Obuso and Nonso to take part in the process to empathize with our users and learn how they interact with the app step by step. We interviewed ten (10) people in Nigeria (20% physically and 80% in an online remote session) from different locations with various farm crop type and products.</div>
 
             {/* Interactive Prototype */}
-            <div className='the-title-top2'>Interactive prototype</div>
+            <div className='the-title'>Interactive prototype</div>
             <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
             <div className='img-low-fi'> <img src={DronePrototype} width="100%" height="100%" alt=''/></div>
 

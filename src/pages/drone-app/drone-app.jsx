@@ -123,6 +123,9 @@ function DroneApp({darkMode}) {
                 Nonso - Co Founder
             </div>
 
+            <div className="next-project">NEXT PROJECT</div>
+            <div className='next-project-title'>Tribal Play</div>
+
 
         </div>
 

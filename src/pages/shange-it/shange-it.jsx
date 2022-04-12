@@ -227,6 +227,9 @@ function ShangeIt({darkMode}) {
                 Nonso - Co Founder
             </div>
 
+            <div className="next-project">NEXT PROJECT</div>
+            <div className='next-project-title'>Drone App</div>
+
       </div>
 
     </div>

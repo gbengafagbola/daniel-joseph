@@ -196,6 +196,26 @@
     font-size: 16px;
 }
 
+.next-project {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+.next-project-title {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 16px;
+    text-align: center;
+}
+
 
 /* Responsiveness @ 1200px */
 @media only screen and (max-width: 1200px) {

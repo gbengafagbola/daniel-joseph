@@ -174,6 +174,8 @@ function SpecNota({darkMode}) {
             Kazeem - Product Manager <br /> <br />
             Abdul - UX Designer
         </div>
+        <div className="next-project">NEXT PROJECT</div>
+        <div className='next-project-title'>Ile Wa</div>
 
 
       </div>

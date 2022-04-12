@@ -52,6 +52,9 @@ function TribalPlay({darkMode}) {
             Idowu Elijah - Software Engineer<br /> <br />
         </div>
 
+        <div className="next-project">GET TO KNOW ME</div>
+        <div className='next-project-title'>About Me</div>
+
       </div>
 
     </div>

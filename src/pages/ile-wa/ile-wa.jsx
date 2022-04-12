@@ -200,16 +200,8 @@ function IleWa({darkMode}) {
 
 
             {/* Project Pagination */}
-            <div className='project-pagination'>
-                <div className='pagination-left'>
-                    <div className='sub-title1'>Spec Nota - Previous Project</div>
-                    {/* <div className='sub-content1'>Previous Project</div> */}
-                </div>
-                <div className='pagination-right'>
-                    <div className='sub-title1'>Shange It - Next Project</div>
-                    {/* <div className='sub-content1'>Next Project</div> */}
-                </div>
-            </div>
+            <div className="next-project">NEXT PROJECT</div>
+            <div className='next-project-title'>Shange It</div>
 
         </div>
     </div>

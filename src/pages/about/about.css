@@ -121,7 +121,7 @@
 
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
-    .work-container{
+    .about-container{
         padding: 30px 20px;
     }
 }

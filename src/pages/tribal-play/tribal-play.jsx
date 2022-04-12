@@ -1,12 +1,20 @@
 import TribalCover from '../../assets/images/Tribal Play cover.png';
 import TribalHiFi from '../../assets/images/Tribal Play Hi-Fi.png';
 import ReactPlayer from 'react-player';
+import Helmet from 'react-helmet';
 
 import './tribal-play.css';
 
 function TribalPlay({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Tribal Play - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="Giving billions of people assess to movie with the best movie experience"
+        />
+      </Helmet>
 
       <div className='tribal-container'>
         <div className='tribal-header'>Tribal Play</div>

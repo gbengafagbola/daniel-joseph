@@ -11,6 +11,7 @@ import IleImage2 from '../../assets/images/Ile Image 2.png';
 import IleImage3 from '../../assets/images/Ile Image 3.png';
 import IleImage4 from '../../assets/images/Ile Image 4.png';
 import ReactPlayer from 'react-player';
+import Helmet from 'react-helmet';
 
 
 
@@ -20,6 +21,13 @@ import './ile-wa.css';
 function IleWa({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Ile Wa - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="A unique identity and a PWA website for booking of interior decoration services"
+        />
+      </Helmet>
 
       <div className='ile-container'>
           <div className='ile-header'>Ile Wa</div>

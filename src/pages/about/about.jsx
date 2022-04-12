@@ -2,10 +2,18 @@ import './about.css';
 import DjAbout from '../../assets/images/dj-about.jpg';
 import {ReactComponent as PlanetSvg} from '../../assets/svg/planet.svg';
 import Employment from '../../components/employment/employment';
+import Helmet from 'react-helmet';
 
 function About({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Get to Know Me - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="About me, Get to know me in-depth and know some of the amazing things I'm working on"
+        />
+      </Helmet>
         <div className='about-container'>
           <div className='about-title'>About</div>
 

@@ -4,11 +4,20 @@ import IleWa from '../../assets/images/Ile Wa-work.jpg';
 import ShangeIt from '../../assets/images/Shange It-work.jpg';
 import DroneApp from '../../assets/images/Drone App-work.jpg';
 import TribalPlay from '../../assets/images/Tribal Play-work.jpg';
+import Helmet from 'react-helmet';
 
 
 function Work({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Selected Work - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="Check out some of my featured projects"
+        />
+      </Helmet>
+
       <div className='work-container'>
           <div className='work-header'>Work</div>
 

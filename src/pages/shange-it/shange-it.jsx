@@ -8,6 +8,7 @@ import ShangeItImage1 from '../../assets/images/Shange It Image 1.png';
 import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
 import ShangeItLogo from '../../assets/images/Shange It Logo.png';
 import ReactPlayer from 'react-player';
+import Helmet from 'react-helmet';
 
 
 
@@ -17,6 +18,13 @@ import './shange-it.css';
 function ShangeIt({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Shange It - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="An easy to use p2p currency exchange app"
+        />
+      </Helmet>
 
       <div className='shange-container'>
           <div className='shange-header'>Shange It</div>

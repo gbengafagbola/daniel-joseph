@@ -6,19 +6,27 @@ import Annotation from '../../assets/images/Annotation.png';
 import TaskOverview from '../../assets/images/Task Overview.png';
 import Sketch from '../../assets/images/Spec Nota sketch.jpg';
 import LowFi from '../../assets/images/Spec Nota low-fi.png';
-// import HighFi from '../../assets/images/Spec Nota high-fi.jpg';
-import HiTask from '../../assets/images/Hifi - task.jpg';
-import HiDocument from '../../assets/images/Hifi - document.jpg';
-import HiCollaboration from '../../assets/images/Hifi - collaboration.jpg';
-import HiAnnotation from '../../assets/images/Hifi - annotation.png';
-import HiTaskOverview from '../../assets/images/Hifi - task overview.jpg';
+import HighFi from '../../assets/images/Spec Nota - Hi Fi.jpg';
+// import HiTask from '../../assets/images/Hifi - task.jpg';
+// import HiDocument from '../../assets/images/Hifi - document.jpg';
+// import HiCollaboration from '../../assets/images/Hifi - collaboration.jpg';
+// import HiAnnotation from '../../assets/images/Hifi - annotation.png';
+// import HiTaskOverview from '../../assets/images/Hifi - task overview.jpg';
 import ReactPlayer from 'react-player';
+import Helmet from 'react-helmet';
 
 import './spec-nota.css';
 
 function SpecNota({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Spec Nota - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="Modern and seemless project management tool"
+        />
+      </Helmet>
       
       <div className='spec-nota-container'>
           <div className='spec-nota-header'>Spec Nota</div>
@@ -143,11 +151,7 @@ function SpecNota({darkMode}) {
         <div className='sub-title'>Low - Fi</div>
         <div className='img-low-fi'> <img src={LowFi} width="100%" height="100%" alt=''/></div>
         <div className='sub-title'>High - Fi</div>
-        <div className='img-task'> <img src={HiTask} width="100%" height="100%" alt=''/></div>
-        <div className='img-document'> <img src={HiDocument} width="100%" height="100%" alt=''/></div>
-        <div className='img-colab'> <img src={HiCollaboration} width="100%" height="100%" alt=''/></div>
-        <div className='img-annotation'> <img src={HiAnnotation} width="100%" height="100%" alt=''/></div>
-        <div className='img-task-over'> <img src={HiTaskOverview} width="100%" height="100%" alt=''/></div>
+        <div> <img src={HighFi} width="100%" height="100%" alt=''/></div>
 
         {/* Visuals */}
         <div className='the-title-top'>Interactive prototype</div>

@@ -9,8 +9,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 23px;
-    
-
     justify-content: center;
 }
 
@@ -26,7 +24,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-
     gap: 200px;
 }
 
@@ -43,7 +40,7 @@
 }
 
 .project-content {
-padding-top: 20px;
+    padding-top: 20px;
   font-family: 'Euclid Circular A Light';
   font-size: 16px;
   line-height: 35px;
@@ -155,4 +152,90 @@ padding-top: 20px;
     width: 600px;
     overflow:hidden;
     object-fit: cover;
+}
+
+
+
+/* Responsiveness @ 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .featured-container {
+        margin: 80px 80px;
+    }
+
+    .project-title:hover .spec-nota {
+        visibility: hidden;
+    } 
+
+    .project-title:hover .ile-wa {
+        visibility: hidden;
+    }
+    
+    /* Shang It */
+   .project-title:hover .shang-it {
+        visibility: hidden;
+    }
+
+    /* Drone App */
+    .project-title:hover .drone-app {
+        visibility: hidden;
+    }
+    
+    
+    /* Tribal Play */
+    .project-title:hover .tribal-play {
+        visibility: hidden;
+    }
+
+    .projects {
+        gap: 80px;
+    }
+
+    .project-title {
+        width: 100%;
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+       line-height: 70px;
+       /* color: #000; */
+    
+       cursor: pointer;
+    }
+    
+    .project-content {
+        padding-top: 24px;
+        font-family: 'Euclid Circular A Light';
+        font-size: 16px;
+        line-height: 35px;
+        width: auto;
+    }
+}
+
+
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
+    .featured-container {
+        margin: 50px 50px;
+    }
+
+    .projects {
+        gap: 80px;
+    }
+
+    .project-content {
+        padding-top: 0px;
+    }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .featured-container {
+        margin: 30px 20px;
+    }
+
+    .projects {
+        gap: 80px;
+    }
 }

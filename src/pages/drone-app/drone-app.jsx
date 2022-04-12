@@ -3,12 +3,20 @@ import DroneSketch from '../../assets/images/Drone App - Sketch.png';
 import DroneLowFi from '../../assets/images/Drone App - Wireframe.png';
 import DroneHighFi from '../../assets/images/Drone App - HiFi.png';
 import ReactPlayer from 'react-player';
+import Helmet from 'react-helmet';
 
 import './drone-app.css';
 
 function DroneApp({darkMode}) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
+      <Helmet>
+        <title>Drone App - Daniel Joseph</title>
+        <meta
+          name="description"
+          content="Aiding farmers in precision farming via data gathering and analysis"
+        />
+      </Helmet>
 
         <div className='drone-container'>
 

@@ -76,10 +76,9 @@
     display: none;
   }
   
-  
-  
-  
-  
+
+
+
   
   nav {
     float: right;
@@ -112,14 +111,18 @@
 
 
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1200px) {
 
     .main {
       padding-top: 36px;
     }
 
+    .logo {
+      padding-left: 80px;
+    }
     .nav-menu {
       display: none;
+      padding-top: 80px;
     }
   
     .nav-icon {
@@ -127,4 +130,37 @@
     }
 
   }
+
+
+  /* Responsiveness @ 450px */
+@media only screen and (max-width: 780px) {
+  .work-container{
+      padding: 30px 20px;
+  }
+
+  .logo {
+    padding-left: 50px;
+  }
+
+  .nav-menu {
+    padding-right: 50px;
+  }
+}
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+  .work-container{
+      padding: 30px 20px;
+  }
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .nav-menu {
+    padding-right: 20px;
+  }
+
+}
   

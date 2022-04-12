@@ -145,21 +145,17 @@
         padding-bottom: 20px;
       }
 
-    .work-header-brief {
-        padding-bottom: 60px;
-    }
-
     .work-drone-container {
         padding-left: 0px;
     }
 
     .work-shange-container {
         padding-left: 0px;
+        padding-top: 20px;
     }
 
     .work-tribal-container {
         width: auto;
-        /* padding-top: 80px; */
     }
 
     .other-project {
@@ -183,9 +179,7 @@
 
     .project-grid {
         display: flex;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        gap: 40px;
+        padding-top: 30px;
     }
 
     .project-grid {

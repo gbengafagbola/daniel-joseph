@@ -12,13 +12,12 @@
 }
 
 .email {
-    padding-top: 80PX;
+    padding-top: 20PX;
     font-family: 'Bw Vivant';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-
     text-align: center;
 }
 
@@ -72,7 +71,13 @@
 
 
   @media only screen and (max-width: 1200px) {
-
+    .bottom-footer {
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-top: 40px;
+      padding-bottom: 20px;
+      display: flex;
+    }
   }
 
   @media only screen and (max-width: 780px) {
@@ -98,7 +103,16 @@
         text-align: center;
       }
     
+      .email {
+        padding-top: 20PX;
+        font-family: 'Bw Vivant';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 48px;
     
+        text-align: center;
+    }
       .copyright {
         font-family: 'Euclid Circular A Light';
         font-size: 16px;

@@ -115,7 +115,7 @@
          padding-bottom: 20px;
        }
 
-       .work-drone-container {
+    .work-drone-container {
         padding-top: 80px;
         padding-left: 302px;
     }
@@ -151,17 +151,15 @@
 
     .work-drone-container {
         padding-left: 0px;
-        padding-bottom: 40px;
     }
 
     .work-shange-container {
         padding-left: 0px;
-        padding-bottom: 40px;
     }
 
     .work-tribal-container {
-        padding-top: 60px;
         width: auto;
+        /* padding-top: 80px; */
     }
 
     .other-project {

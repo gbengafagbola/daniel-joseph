@@ -1,0 +1,99 @@
+.playground-container {
+    padding: 50px 200px;  
+}
+
+.playground-header {
+    font-family: 'Bw Vivant';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 56px;
+     padding-bottom: 24px;
+}
+
+.playground-header-brief {
+    font-family: 'Euclid Circular A Light';
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.play-project {
+    padding-bottom: 80px;
+}
+
+.play-project-image {
+    padding-bottom: 24px;
+}
+
+.play-project-title {
+    font-family: 'Bw Vivant';
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+
+.play-project-content {
+    font-family: 'Euclid Circular A Light';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.playground-view {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
+.project-click {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+
+/* Responsiveness @ 1200px */
+@media only screen and (max-width: 1200px) {
+
+    .playground-container {
+        padding: 30px 80px;  
+    }
+
+}
+
+
+
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
+    .playground-container{
+        padding: 30px 50px;
+    }
+
+    .playground-header-brief {
+        padding-bottom: 60px;
+    }
+
+    .playground-header {
+        font-family: 'Bw Vivant';
+         font-weight: 400;
+         font-size: 40px;
+        padding-bottom: 60px;
+
+    }
+
+}
+
+
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .playground-container{
+        padding: 30px 20px;
+    }
+}

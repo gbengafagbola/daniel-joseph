@@ -40,7 +40,7 @@ function SpecNota({darkMode}) {
           <div className='impact-role'>
               <div className='impact-col'>
                 <div className='the-title'>Impact</div>
-                <div className='the-content'>The platform was x4 faster than the previous build, which increased client interest in using the platform.</div>
+                <div className='the-content'>The platform was x4 faster than the previous build, which increased client interest in using the platform. The UI design was modern and interactive.</div>
               </div>
 
               <div className='role-col'>
@@ -51,11 +51,36 @@ function SpecNota({darkMode}) {
           
           {/* The challenge */}
           <div className='the-title'>The Challenge</div>
-          <div className='the-content'>Spec Nota provides a workspace to organize a task, handle documentation, annotation, and time tracker. As at when I worked on the project, through user research and testing, some underlying challenges where faced and they are later listed in detail.</div>
+          <div className='the-content'>Spec Nota provides a workspace to organize a task, handle documentation, annotation, and time tracker. As at when I worked on the project, through user research and testing, the attributes listed above were the challenge we were hoping to solve.</div>
 
           {/* The solution */}
           <div className='the-title'>The Solution</div>
           <div className='the-content'>After working with the developer to identify a stack that is fast, I provided insights, best practices, and modern design for underlying problems.</div>
+
+          {/* Expectations */}
+          <div className='the-title'>Overview</div>
+          <div className='the-content'>Project management tools have helped tremendiously and helped alot of individual to track progress, assigning tasks, documenting and drawing flows especially when the case of COVID-19 was high. Spec Nota is a project management tool for annotation, diagram/flow, task and project documentation.</div>
+
+          {/* Current State */}
+          <div className='the-title'>Current State</div>
+          <div className='the-content-low'>We interviewed people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;</div>
+          {/* Current State Grid */}
+          <div className='current-state'>
+              <div className='col1'>
+                <div className='state-title'>80%</div>
+                <div className='state-content'>of users find it very difficult to add others to a task, share project, assign users, and add file to a task.</div>
+              </div>
+
+              <div className='col2'>
+                <div className='state-title'>100%</div>
+                <div className='state-content'>complained that the platform takes too much time to display or load content. There is a need to refresh some pages before they display any content.</div>
+              </div>
+
+              <div className='col3'>
+                <div className='state-title'>60%</div>
+                <div className='state-content'>would love to add comment on the documentation screen.</div>
+              </div>
+          </div>
 
           {/* Expectations */}
           <div className='the-title'>Expectations</div>
@@ -122,27 +147,6 @@ function SpecNota({darkMode}) {
           <div className='the-title'>Interviews</div>
           <div className='the-content'>Before digging into solutions, I advocated conducting user interviews to understand how Spec Nota users currently utilize the platform. I also encouraged other stakeholders to take part in the process to empathize with our users and learn how they interact with Spec Nota step by step.</div>
 
-          {/* Current State */}
-          <div className='the-title'>Current State</div>
-          <div className='the-content-low'>We interviewed people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;</div>
-          {/* Current State Grid */}
-          <div className='current-state'>
-              <div className='col1'>
-                <div className='state-title'>80%</div>
-                <div className='state-content'>of users find it very difficult to add others to a task, share project, assign users, and add file to a task.</div>
-              </div>
-
-              <div className='col2'>
-                <div className='state-title'>100%</div>
-                <div className='state-content'>complained that the platform takes too much time to display or load content. There is a need to refresh some pages before they display any content.</div>
-              </div>
-
-              <div className='col3'>
-                <div className='state-title'>60%</div>
-                <div className='state-content'>would love to add comment on the documentation screen.</div>
-              </div>
-          </div>
-
         {/* Visuals */}
         <div className='the-title'>Visuals</div>
         <div className='the-content-low'>With our research findings and personas in mind, I invited Hafis, Abdul, and other stakeholders to brainstorm solutions together on an online remote session. I moderated these sessions, and before the session, I sent the necessary resources/notes/tasks they should go through to provide solutions to our users' underlying problems.</div>
@@ -180,8 +184,11 @@ function SpecNota({darkMode}) {
         <div className='team'>Team</div>
         <div className='team-mate'>
             Hafis Raji - Stake holder <br /> <br />
-            Kazeem - Product Manager <br /> <br />
-            Abdul - UX Designer
+            Kazeem Oguntade - Product Manager <br /> <br />
+            Abdullahi Abodunrin - UX Designer <br /> <br />
+            Theo Okafor - Development Lead <br /> <br />
+            Ekwugha Andrew - Software Engineer <br /> <br />
+            Anthony Nwobodo - Backend Engineer
         </div>
         <div className="next-project">NEXT PROJECT</div>
         <div className='next-project-title'>Ile Wa</div>

@@ -190,7 +190,7 @@ function ShangeIt({darkMode}) {
 
             {/* User flow and Interaction */}
             <div className='the-title'>User flow and Interaction</div>
-            <div className='the-content'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which will allwo users test the Shange It app.</div>
+            <div className='the-content'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which allow users test the Shange It app.</div>
 
             {/* Interactive Prototype */}
             <div className='the-title'>Interactive prototype</div>
@@ -222,7 +222,7 @@ function ShangeIt({darkMode}) {
             <div className='the-content-low2'>Learning is constant. Below is what I learnt while working on the project:</div>
               <ul className='sub-content sub-space'>
                 <li>Keep an open mind and always listen.</li>
-                <li>It was down on me to upgrade my interaction and prototype skill.</li>
+                <li>Easy prototyping helps users navigate well when using a platform.</li>
                 <li>I learnt the importance of research and proper understanding of product.</li>
                 <li>Empathy stage shouldn’t be joked with, I get to see it’s effect in full force.</li>
               </ul>
@@ -234,9 +234,9 @@ function ShangeIt({darkMode}) {
             {/* Team */}
             <div className='team'>Team</div>
             <div className='team-mate'>
-                Oluwagbenga Fagbola - Co Founder <br /> <br />
-                Umesi Obusor - Co Founder <br /> <br />
-                Nonso - Co Founder
+                Sam - Software Engineer<br /> <br />
+                Mr. Dami- Co Founder <br /> <br />
+                Mr. Seyi- Co Founder
             </div>
 
             <div className="next-project">NEXT PROJECT</div>

@@ -122,8 +122,9 @@ function DroneApp({darkMode}) {
             <div className='the-title'>My take aways from the project</div>
             <div className='the-content'>
               <ul className='sub-content'>
-                <li>Testing ideas is crucial, and this helped us validate assumptions and decisions.</li>
-                <li>I was challenged to step up my interaction skill and I was amazed how well it turned.</li>
+                <li>Assumptions help give a foundation to what is unknown. Testing ideas is crucial, and this helped us validate assumptions and decisions.</li>
+                <li>It was my first project relating to AgroTech, I had to do some personal research and 1 : 1 interview with some of the lecturers in UniPort from the faculty of Agricultural Science.</li>
+                <li>I was open to learning new concept</li>
               </ul>
             </div>
 

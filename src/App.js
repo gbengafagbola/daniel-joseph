@@ -10,6 +10,8 @@ import IleWa from "./pages/ile-wa/ile-wa";
 import ShangeIt from "./pages/shange-it/shange-it";
 import DroneApp from "./pages/drone-app/drone-app";
 import TribalPlay from "./pages/tribal-play/tribal-play";
+import Playground from "./pages/playground/playground";
+
 import Footer from "./components/footer/footer";
 
 import './App.css';
@@ -32,6 +34,8 @@ function App() {
         <Route exact path="/tribal-play" element={<TribalPlay darkMode={darkMode}/>}></Route>
         <Route exact path="/shange-it" element={<ShangeIt darkMode={darkMode}/>}></Route>
         <Route exact path="/drone-app" element={<DroneApp darkMode={darkMode}/>}></Route>
+        <Route exact path="/playground" element={<Playground darkMode={darkMode}/>}></Route>
+
       </Routes>
 
       <Footer darkMode={darkMode} />

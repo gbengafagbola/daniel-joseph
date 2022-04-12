@@ -28,7 +28,7 @@ function TribalPlay({darkMode}) {
         <div className='overview-role'>
               <div className='overview-col'>
                 <div className='the-title'>Overview</div>
-                <div className='the-content'>Users stream & keep-up with your favourite movie and tv-show. alongside exciting movie thrills.
+                <div className='the-content'>Users stream & keep-up with their favourite movie and tv-show. alongside exciting movie thrills.
                   Helping to bring the best of Tribal Play experience to movie lovers.</div>
               </div>
 
@@ -45,7 +45,7 @@ function TribalPlay({darkMode}) {
         {/* <div className='tribal-prototype'> <img src={TribalPrototype} width="100%" height="100%" alt=''/></div>  */}
         <div className='video'>
             <ReactPlayer width='100%' height='500px'
-            controls loop url='https://www.youtube.com/watch?v=RV6TOgP0Eas' />
+            controls loop autostart url='https://www.youtube.com/watch?v=RV6TOgP0Eas' />
         </div>
 
         {/* Hand-off */}

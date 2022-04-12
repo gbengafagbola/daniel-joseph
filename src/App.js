@@ -11,6 +11,7 @@ import ShangeIt from "./pages/shange-it/shange-it";
 import DroneApp from "./pages/drone-app/drone-app";
 import TribalPlay from "./pages/tribal-play/tribal-play";
 import Footer from "./components/footer/footer";
+import ReactPlayer from "react-player";
 
 import './App.css';
 

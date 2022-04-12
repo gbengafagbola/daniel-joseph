@@ -11,6 +11,7 @@ import IleImage1 from '../../assets/images/Ile Image 1.png';
 import IleImage2 from '../../assets/images/Ile Image 2.png';
 import IleImage3 from '../../assets/images/Ile Image 3.png';
 import IleImage4 from '../../assets/images/Ile Image 4.png';
+import ReactPlayer from 'react-player';
 
 
 
@@ -161,6 +162,9 @@ function IleWa({darkMode}) {
               <div className='img-low-fi'> <img src={IleHiFi} width="100%" height="100%" alt=''/></div>
               <div className='img-low-fi'> <img src={IleMobile} width="100%" height="100%" alt=''/></div>
               <div className='img-low-fi'> <img src={IlePrototype} width="100%" height="100%" alt=''/></div>
+              <div className='video'>
+                <ReactPlayer controls loop url='https://www.youtube.com/watch?v=ir71ni-OJG4' />
+              </div>
 
             {/* User Testing*/}
             <div className='the-title'>User Testing</div>

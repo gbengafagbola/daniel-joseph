@@ -13,8 +13,10 @@ import HiCollaboration from '../../assets/images/Hifi - collaboration.jpg';
 import HiAnnotation from '../../assets/images/Hifi - annotation.png';
 import HiTaskOverview from '../../assets/images/Hifi - task overview.jpg';
 import PrototypeImage from '../../assets/images/Spec Nota Prototype.jpg';
+import ReactPlaye from 'react-player';
 
 import './spec-nota.css';
+import ReactPlayer from 'react-player';
 
 function SpecNota({darkMode}) {
   return (
@@ -153,6 +155,10 @@ function SpecNota({darkMode}) {
         <div className='the-title-top'>Interactive prototype</div>
         <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
         <div className='sub-img'> <img src={PrototypeImage} width="100%" height="100%" alt=''/></div>
+        <div className='video'>
+            <ReactPlayer controls loop url='https://www.youtube.com/watch?v=iSAbrtWA0JY' />
+        </div>
+        
 
         {/* Hand-off */}
         <div className='the-title-top2'>Hand-off</div>

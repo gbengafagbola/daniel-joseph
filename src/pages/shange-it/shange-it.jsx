@@ -8,6 +8,7 @@ import ShangeItIdentity2 from '../../assets/images/Shange It Identity 2.png';
 import ShangeItImage1 from '../../assets/images/Shange It Image 1.png';
 import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
 import ShangeItLogo from '../../assets/images/Shange It Logo.png';
+import ReactPlayer from 'react-player';
 
 
 
@@ -183,6 +184,9 @@ function ShangeIt({darkMode}) {
             {/* User flow and Interaction */}
             <div className='the-title'>User flow and Interaction</div>
             <div className='the-content'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which will allwo users test the Shange It app.</div>
+            <div className='video'>
+                <ReactPlayer controls loop url='https://www.youtube.com/watch?v=0jCPcJRnqqE' />
+            </div>
 
             {/* Interactive Prototype */}
             <div className='the-title-top2'>Interactive prototype</div>

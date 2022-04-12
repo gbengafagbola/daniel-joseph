@@ -3,6 +3,7 @@ import DroneSketch from '../../assets/images/Drone App - Sketch.png';
 import DroneLowFi from '../../assets/images/Drone App - Wireframe.png';
 import DroneHighFi from '../../assets/images/Drone App - HiFi.png';
 import DronePrototype from '../../assets/images/Drone App - Prototype.png';
+import ReactPlayer from 'react-player';
 
 import './drone-app.css';
 
@@ -101,6 +102,9 @@ function DroneApp({darkMode}) {
             <div className='the-title'>Interactive prototype</div>
             <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
             <div className='img-low-fi'> <img src={DronePrototype} width="100%" height="100%" alt=''/></div>
+            <div className='video'>
+                <ReactPlayer controls loop url='https://www.youtube.com/watch?v=g_HyyQgpHiQ' />
+              </div>
 
             {/* Hand-off */}
             <div className='the-title-top2'>Hand-off</div>

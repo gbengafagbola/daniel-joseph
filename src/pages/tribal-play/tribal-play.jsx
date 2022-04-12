@@ -1,6 +1,7 @@
 import TribalCover from '../../assets/images/Tribal Play cover.png';
 import TribalHiFi from '../../assets/images/Tribal Play Hi-Fi.png';
 import TribalPrototype from '../../assets/images/Tribal Play Prototype.png';
+import ReactPlayer from 'react-player';
 
 import './tribal-play.css';
 
@@ -35,6 +36,9 @@ function TribalPlay({darkMode}) {
 
         {/* Prototype */}
         <div className='tribal-prototype'> <img src={TribalPrototype} width="100%" height="100%" alt=''/></div> 
+        <div className='video'>
+            <ReactPlayer controls loop url='https://www.youtube.com/watch?v=RV6TOgP0Eas' />
+        </div>
 
         {/* Hand-off */}
         <div className='the-title'>My take aways from the project</div>

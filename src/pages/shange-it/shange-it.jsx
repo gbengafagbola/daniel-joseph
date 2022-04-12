@@ -1,5 +1,4 @@
 import ShangeCover from '../../assets/images/Shange It Cover.png';
-import ShangePrototype from '../../assets/images/Shange It Prototype.png';
 import ShangeHiFi from '../../assets/images/Shange It - Hi Fi.png';
 import ShangeSketch from '../../assets/images/Shange It - Sketch.png';
 import ShangeLoFi from '../../assets/images/Shange It - LoFi.png';
@@ -184,14 +183,15 @@ function ShangeIt({darkMode}) {
             {/* User flow and Interaction */}
             <div className='the-title'>User flow and Interaction</div>
             <div className='the-content'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which will allwo users test the Shange It app.</div>
-            <div className='video'>
-                <ReactPlayer controls loop url='https://www.youtube.com/watch?v=0jCPcJRnqqE' />
-            </div>
 
             {/* Interactive Prototype */}
-            <div className='the-title-top2'>Interactive prototype</div>
+            <div className='the-title'>Interactive prototype</div>
             <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
-            <div className='img-low-fi'> <img src={ShangePrototype} width="100%" height="100%" alt=''/></div>
+            {/* <div className='img-low-fi'> <img src={ShangePrototype} width="100%" height="100%" alt=''/></div> */}
+            <div className='video'>
+                <ReactPlayer width='100%' height='500px'
+                controls loop url='https://www.youtube.com/watch?v=0jCPcJRnqqE' />
+            </div>
 
             {/* Aftermath and Retrospective */}
             <div className='the-title'>Retaining Users</div>

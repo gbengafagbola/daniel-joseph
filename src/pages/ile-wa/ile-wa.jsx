@@ -2,7 +2,6 @@ import IleWaCover from '../../assets/images/Ile Wa Cover.png';
 import IleIdentity1 from '../../assets/images/Ile Identity 1.png';
 import IleIdentity2 from '../../assets/images/Ile Identity 2.png';
 import IleItLogo from '../../assets/images/Ile Logo.png';
-import IlePrototype from '../../assets/images/Ile Wa Prototype.png';
 import IleHiFi from '../../assets/images/Ile Wa - Hi Fi.png';
 import IleSketch from '../../assets/images/Ile Wa - Wireframe.png';
 import IleLoFi from '../../assets/images/Ile Wa - Wireframe.png';
@@ -56,6 +55,11 @@ function IleWa({darkMode}) {
           <div className='the-content-low'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
           <div className='spec-img space'> <img src={IleIdentity1} width="100%" height="100%" alt=''/></div>
           <div className='spec-img space'> <img src={IleIdentity2} width="100%" height="100%" alt=''/></div>
+
+          <div className='video'>
+                <ReactPlayer width='100%' height='500px'
+                controls playing loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
+          </div>
 
             {/* Impact and Role */}
             <div className='impact-role'>
@@ -161,9 +165,10 @@ function IleWa({darkMode}) {
               <div className='sub-title'>High - Fi</div>
               <div className='img-low-fi'> <img src={IleHiFi} width="100%" height="100%" alt=''/></div>
               <div className='img-low-fi'> <img src={IleMobile} width="100%" height="100%" alt=''/></div>
-              <div className='img-low-fi'> <img src={IlePrototype} width="100%" height="100%" alt=''/></div>
+              {/* <div className='img-low-fi'> <img src={IlePrototype} width="100%" height="100%" alt=''/></div> */}
               <div className='video'>
-                <ReactPlayer controls loop url='https://www.youtube.com/watch?v=ir71ni-OJG4' />
+                <ReactPlayer width='100%' height='500px'
+                controls loop url='https://www.youtube.com/watch?v=ir71ni-OJG4' />
               </div>
 
             {/* User Testing*/}

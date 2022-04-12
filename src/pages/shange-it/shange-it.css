@@ -266,4 +266,10 @@
     .work-container{
         padding: 30px 20px;
     }
+
+    .height-width {
+        height: 90px;
+        width: 50px;
+        border-radius: 7px;
+    }
 }

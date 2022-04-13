@@ -29,7 +29,7 @@ function Playground({darkMode}) {
             <div className='play-project'>
                 <div className='play-project-image'> <img src={BrowseTemplate} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Browser Template</div>
-                <div className='play-project-content'>Lorem ipsum</div>
+                <div className='play-project-content'>A browser template mock up for web designs.</div>
             </div>
 
             {/* iXn*/}
@@ -63,8 +63,8 @@ function Playground({darkMode}) {
             {/* Design System */}
             <div className='play-project'>
                 <div className='play-project-image'> <img src={DesignSystem} width="100%" height="100%" alt=''/></div>
-                <div className='play-project-title'>WorkiNN Branding</div>
-                <div className='play-project-content'>Lorem ipsum</div>
+                <div className='play-project-title'>Design System</div>
+                <div className='play-project-content'>I always work with design system to make design consistent and hand-off 100% natural.</div>
             </div>
 
             {/* Logofolio */}

@@ -75,25 +75,22 @@
         padding: 30px 50px;
     }
 
-    .playground-header-brief {
-        padding-bottom: 60px;
-    }
-
     .playground-header {
         font-family: 'Bw Vivant';
          font-weight: 400;
          font-size: 40px;
-        padding-bottom: 60px;
-
+        padding-bottom: 20px;
     }
-
 }
-
 
 
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
     .playground-container{
         padding: 30px 20px;
+    }
+
+    .playground-header-brief {
+        padding-bottom: 60px;
     }
 }

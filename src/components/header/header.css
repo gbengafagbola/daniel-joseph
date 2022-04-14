@@ -138,9 +138,13 @@
     padding-left: 50px;
   }
 
-  .nav-menu {
-    padding-right: 50px;
+  .nav-icon {
+    display: flex;
+    padding-right: 20px;
+    width: 48px;
+    height: 52px;
   }
+
 }
 
 
@@ -150,8 +154,11 @@
     padding-left: 20px;
   }
 
-  .nav-menu {
+  .nav-icon {
+    display: flex;
     padding-right: 20px;
+    width: 48px;
+    height: 52px;
   }
 
 }

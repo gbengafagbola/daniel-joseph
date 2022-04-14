@@ -4,6 +4,9 @@ import {ReactComponent as Light} from '../../assets/svg/light-mode.svg';
 import {ReactComponent as Dark} from '../../assets/svg/dark-mode.svg';
 import { useNavigate } from 'react-router-dom';
 
+import {ReactComponent as NavIcon} from '../../assets/svg/menu.svg';
+
+
 export default function Header({darkMode, change}) {
   let navigate = useNavigate();
   return (
@@ -14,9 +17,14 @@ export default function Header({darkMode, change}) {
             <Logo />
           </div>
 
-          {/* <div className="nav-icon">
+          <div className="nav-icon">
             <NavIcon />
-          </div> */}
+          </div>
+
+
+
+
+
           
           <nav>
               <ul className="nav-menu">

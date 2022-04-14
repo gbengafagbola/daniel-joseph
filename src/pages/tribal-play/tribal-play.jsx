@@ -2,10 +2,12 @@ import TribalCover from '../../assets/images/Tribal Play cover.png';
 import TribalHiFi from '../../assets/images/Tribal Play Hi-Fi.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
 import './tribal-play.css';
 
 function TribalPlay({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -61,11 +63,11 @@ function TribalPlay({darkMode}) {
         <div className='team'>Team</div>
         <div className='team-mate'>
             Oluwagbenga Fagbola - Co Founder and Lead Software Engineer<br /> <br />
-            Idowu Elijah - Software Engineer<br /> <br />
+            Idowu Elijah - Software Engineer
         </div>
 
         <div className="next-project">GET TO KNOW ME</div>
-        <div className='next-project-title'>About Me</div>
+        <div className='next-project-title' onClick={() => {navigate("/about");}}>About Me</div>
 
       </div>
 

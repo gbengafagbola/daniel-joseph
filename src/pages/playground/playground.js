@@ -20,7 +20,7 @@ function Playground({darkMode}) {
             content="Some project I have worked on"
           />
         </Helmet>
-  
+      
         <div className='playground-container'>
             <div className='playground-header'>Playground </div>
             <div className='playground-header-brief'>These are some of the exciting projects.</div>

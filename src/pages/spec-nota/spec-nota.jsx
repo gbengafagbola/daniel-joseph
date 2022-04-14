@@ -7,17 +7,14 @@ import TaskOverview from '../../assets/images/Task Overview.png';
 import Sketch from '../../assets/images/Spec Nota sketch.jpg';
 import LowFi from '../../assets/images/Spec Nota low-fi.png';
 import HighFi from '../../assets/images/Spec Nota - Hi Fi.jpg';
-// import HiTask from '../../assets/images/Hifi - task.jpg';
-// import HiDocument from '../../assets/images/Hifi - document.jpg';
-// import HiCollaboration from '../../assets/images/Hifi - collaboration.jpg';
-// import HiAnnotation from '../../assets/images/Hifi - annotation.png';
-// import HiTaskOverview from '../../assets/images/Hifi - task overview.jpg';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
 import './spec-nota.css';
 
 function SpecNota({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -191,7 +188,7 @@ function SpecNota({darkMode}) {
             Anthony Nwobodo - Backend Engineer
         </div>
         <div className="next-project">NEXT PROJECT</div>
-        <div className='next-project-title'>Ile Wa</div>
+        <div className='next-project-title' onClick={() => {navigate("/ile-wa");}}>Ile Wa</div>
 
 
       </div>

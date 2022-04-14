@@ -4,10 +4,13 @@ import DroneLowFi from '../../assets/images/Drone App - Wireframe.png';
 import DroneHighFi from '../../assets/images/Drone App - HiFi.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
+
 
 import './drone-app.css';
 
 function DroneApp({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -137,8 +140,7 @@ function DroneApp({darkMode}) {
             </div>
 
             <div className="next-project">NEXT PROJECT</div>
-            <div className='next-project-title'>Tribal Play</div>
-
+            <div className='next-project-title' onClick={() => {navigate("/tribal-play");}}>Tribal Play</div>
 
         </div>
 

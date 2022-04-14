@@ -12,13 +12,14 @@ import IleImage3 from '../../assets/images/Ile Image 3.png';
 import IleImage4 from '../../assets/images/Ile Image 4.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
-
+import { useNavigate } from 'react-router-dom';
 
 
 import './ile-wa.css';
 
 
 function IleWa({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -218,7 +219,7 @@ function IleWa({darkMode}) {
 
             {/* Project Pagination */}
             <div className="next-project">NEXT PROJECT</div>
-            <div className='next-project-title'>Shange It</div>
+            <div className='next-project-title' onClick={() => {navigate("/shange-it");}}>Shange It</div>
 
         </div>
     </div>

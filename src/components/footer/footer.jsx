@@ -12,7 +12,7 @@ export default function Footer({darkMode}) {
 
 
 
-          <div className='email'>josephodaniel19@gmail.com</div>
+          <div className='email' onClick={() => window.open('mailto:josephodaniel19@gmail.com?subject=Let%27s Chat!')}>josephodaniel19@gmail.com</div>
 
 
           <div className='line'></div>
@@ -25,9 +25,9 @@ export default function Footer({darkMode}) {
 
 
                 <ul className="social-icons">
-                  <li className="socials"><div> LINKEDIN</div></li>
-                  <li className="socials"><div>DRIBBBLE</div></li>
-                  <li className="socials"><div>TWITTER</div></li>
+                  <li className="socials" onClick={() => window.open('https://linkedin.com/in/holuwadharnyz')}><div> LINKEDIN</div></li>
+                  <li className="socials" onClick={() => window.open('https://dribbble.com/holuwadharnyz')}><div>DRIBBBLE</div></li>
+                  <li className="socials" onClick={() => window.open('https://twitter.com/_oladesignmayor')}><div>TWITTER</div></li>
                 </ul>       
 
           </div>

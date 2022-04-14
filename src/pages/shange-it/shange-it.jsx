@@ -9,13 +9,12 @@ import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
 import ShangeItLogo from '../../assets/images/Shange It Logo.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
-
-
-
+import { useNavigate } from 'react-router-dom';
 
 import './shange-it.css';
 
 function ShangeIt({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -240,7 +239,7 @@ function ShangeIt({darkMode}) {
             </div>
 
             <div className="next-project">NEXT PROJECT</div>
-            <div className='next-project-title'>Drone App</div>
+            <div className='next-project-title' onClick={() => {navigate("/drone-app");}}>Drone App</div>
 
       </div>
 

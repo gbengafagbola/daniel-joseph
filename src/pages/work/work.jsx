@@ -5,9 +5,13 @@ import ShangeIt from '../../assets/images/Shange It-work.jpg';
 import DroneApp from '../../assets/images/Drone App-work.jpg';
 import TribalPlay from '../../assets/images/Tribal Play-work.jpg';
 import Helmet from 'react-helmet';
+import { useNavigate } from 'react-router-dom';
 
+
+import { Link } from 'react-router-dom';
 
 function Work({darkMode}) {
+  let navigate = useNavigate();
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <Helmet>
@@ -23,13 +27,13 @@ function Work({darkMode}) {
 
           {/* Spec Nota and Ile Wa */}
           <div className='project-grid'>
-              <div className='container1'>
+              <div className='container1' onClick={() => {navigate("/spec-nota");}}>
                 <div className='spec-img'> <img src={SpecNota} width="100%" height="100%" alt=''/></div>
                 <div className='work-project-title'>Spec Nota</div>
                 <div className='work-project-content'>Modern and seemless project management tool.</div>
               </div>
 
-              <div className='container2'>
+              <div className='container2' onClick={() => {navigate("/ile-wa");}}>
                 <div className='ile-img'> <img src={IleWa} width="100%" height="100%" alt=''/></div>
                 <div className='work-project-title'>Ile Wa</div>
                 <div className='work-project-content'>A unique identity and a PWA website design.</div>
@@ -37,27 +41,29 @@ function Work({darkMode}) {
           </div>
 
           {/*  Shange It */}
-          <div className='work-shange-container'>
+          <div className='work-shange-container' onClick={() => {navigate("/shange-it");}}>
               <div className='shange-img'> <img src={ShangeIt} width="100%" height="100%" alt=''/></div>
               <div className='work-project-title'>Shange It</div>
               <div className='work-project-content'>Creating an easy to use p2p currency exchange platform for a Startup.</div>
           </div>
 
           {/* Drone App */}
-          <div className='work-drone-container'>
+          <div className='work-drone-container' onClick={() => {navigate("/drone-app");}}>
               <div className='drone-img'> <img src={DroneApp} width="100%" height="100%" alt=''/></div>
               <div className='work-project-title'>Drone App</div>
               <div className='work-project-content'>Aiding farmers in precision farming via data gathering and analysis.</div>
           </div>
 
           {/* Tribal Play */}
-          <div className='work-tribal-container'>
+          <div className='work-tribal-container' onClick={() => {navigate("/tribal-play");}}>
               <div className='tribal-img'> <img src={TribalPlay} width="100%" height="100%" alt=''/></div>
               <div className='work-project-title'>Tribal Play</div>
               <div className='work-project-content'>Giving billions of people a lasting movie experience feel.</div>
           </div>
 
-          <div className='other-project'>check out other cool projects</div>
+        <Link to='/playground'>
+               <div className='other-project'>check out other cool projects</div>
+        </Link>  
 
       </div>
     </div>

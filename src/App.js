@@ -12,6 +12,7 @@ import ShangeIt from "./pages/shange-it/shange-it";
 import DroneApp from "./pages/drone-app/drone-app";
 import TribalPlay from "./pages/tribal-play/tribal-play";
 import Playground from "./pages/playground/playground";
+import ErrorPage from "./pages/error-page/error-page";
 
 import Footer from "./components/footer/footer";
 
@@ -25,12 +26,12 @@ function App() {
     <>
       <div className="App">
           <AnimatedCursor
-              innerSize={10}
-              outerSize={40}
+              innerSize={12}
+              outerSize={30}
               color='0, 0, 0'
               outerAlpha={0.2}
               innerScale={0.7}
-              outerScale={5}
+              outerScale={2}
               clickables={[
                 'a',
                 'input[type="text"]',
@@ -42,7 +43,10 @@ function App() {
                 'select',
                 'textarea',
                 'button',
-                '.link'
+                '.link',
+                '.nav-item',
+                '.onClick',
+                '.main'
             ]}
           />
       </div>
@@ -59,6 +63,7 @@ function App() {
         <Route exact path="/shange-it" element={<ShangeIt darkMode={darkMode}/>}></Route>
         <Route exact path="/drone-app" element={<DroneApp darkMode={darkMode}/>}></Route>
         <Route exact path="/playground" element={<Playground darkMode={darkMode}/>}></Route>
+        <Route exact path="*" element={<ErrorPage darkmode={darkMode}/>}></Route>
 
       </Routes>
 

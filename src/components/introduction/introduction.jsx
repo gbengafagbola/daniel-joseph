@@ -1,11 +1,12 @@
 import './introduction.css';
 import {ReactComponent as MoonSvg} from '../../assets/svg/moon.svg';
 import {ReactComponent as RocketSvg} from '../../assets/svg/rocket.svg';
+import 'animate.css'
 
 export default function Introduction() {
     return (
         <div>
-            <div className="main-intro">
+            <div className="main-intro animate__animated animate__fadeInUp">
                 <div className="greetings"> HI 👋🏽, MY NAME IS <span> DANIEL JOSEPH</span> </div>
                 <div className="description">
                     Product Design Lead at Yokunbo Studios(US), I was previously at eSoft Response(UK). Through curiosity, innovation and product strategy, I create enjoyable and intuitive user-centered design interfaces with an emphasis on visuals, interaction, design systems, and creative direction to aid accomplish business and user goals.

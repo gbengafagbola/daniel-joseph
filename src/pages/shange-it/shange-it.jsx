@@ -10,7 +10,7 @@ import ShangeItLogo from '../../assets/images/Shange It Logo.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
-
+import 'animate.css'
 import './shange-it.css';
 
 function ShangeIt({darkMode}) {
@@ -26,14 +26,14 @@ function ShangeIt({darkMode}) {
       </Helmet>
 
       <div className='shange-container'>
-          <div className='shange-header'>Shange It</div>
-          <div className='shange-header-brief'>Creating an easy to use p2p currency exchange platform for a Startup.</div>
+          <div className='shange-header animate__animated animate__fadeInUp'>Shange It</div>
+          <div className='shange-header-brief animate__animated animate__fadeInUp'>Creating an easy to use p2p currency exchange platform for a Startup.</div>
           
           {/* Cover Image */}
-          <div className='shange-cover'> <img src={ShangeCover} width="100%" height="100%" alt=''/></div>
+          <div className='shange-cover animate__animated animate__fadeInUp'> <img src={ShangeCover} width="100%" height="100%" alt=''/></div>
 
           {/* Impact and Role */}
-          <div className='impact-role'>
+          <div className='impact-role animate__animated animate__fadeInUp'>
               <div className='impact-col'>
               <div className='the-title'>Impact</div>
                 <div className='the-content'>Proposed impact of the design is to increase customer loyalty by making the experience awesome.</div>
@@ -46,22 +46,22 @@ function ShangeIt({darkMode}) {
           </div>
           
             {/* The challenge */}
-            <div className='the-title'>The Challenge</div>
-            <div className='the-content'>Unforgottable experience using the platform to exchange currency with low/zero charge. My goal was to create an easy to use mobile app currency exchange platform leveraging on p2p.</div>
+            <div className='the-title animate__animated animate__fadeInUp'>The Challenge</div>
+            <div className='the-content animate__animated animate__fadeInUp'>Unforgottable experience using the platform to exchange currency with low/zero charge. My goal was to create an easy to use mobile app currency exchange platform leveraging on p2p.</div>
 
             {/* The solution */}
-            <div className='the-title'>The Solution</div>
-            <div className='the-content'>I provided a few click solution to exchanging currency using p2p approach.</div>
+            <div className='the-title animate__animated animate__fadeInUp'>The Solution</div>
+            <div className='the-content animate__animated animate__fadeInUp'>I provided a few click solution to exchanging currency using p2p approach.</div>
 
             {/* Identity */}
-            <div className='the-title'>Identity</div>
-            <div className='the-content-low'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
-            <div className='spec-img space'> <img src={ShangeItIdentity1} width="100%" height="100%" alt=''/></div>
-            <div className='spec-img space'> <img src={ShangeItIdentity2} width="100%" height="100%" alt=''/></div>
+            <div className='the-title animate__animated animate__fadeInUp'>Identity</div>
+            <div className='the-content-low animate__animated animate__fadeInUp'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
+            <div className='spec-img space animate__animated animate__fadeInUp'> <img src={ShangeItIdentity1} width="100%" height="100%" alt=''/></div>
+            <div className='spec-img space animate__animated animate__fadeInUp'> <img src={ShangeItIdentity2} width="100%" height="100%" alt=''/></div>
 
             {/* Impact and Role */}
             <div className='impact-role'>
-                <div className='impact-col'>
+                <div className='impact-col animate__animated animate__fadeInUp'>
                 {/* Team */}
                     <div className='team'>Team</div>
                     <div className='team-mate space'>
@@ -74,7 +74,7 @@ function ShangeIt({darkMode}) {
 
                 </div>
 
-              <div className='role-col'>
+              <div className='role-col animate__animated animate__fadeInUp'>
                   <div className='team'>Color</div>
                   <div className='top-color'>
                       <div className='color1'>
@@ -99,7 +99,7 @@ function ShangeIt({darkMode}) {
           </div>
 
             {/* Normal Images */}
-            <div className='project-grid'>
+            <div className='project-grid animate__animated animate__fadeInUp'>
                 <div className='container1'>
                   <div className='ile-img'> <img src={ShangeItImage1} width="100%" height="100%" alt=''/></div>
                 </div>
@@ -110,14 +110,14 @@ function ShangeIt({darkMode}) {
             </div>
 
             {/* Identity */}
-            <div className='the-title'>The mobile app</div>
-            <div className='the-content'>One of the changes with financial institution is that it’s now mobile unlike before where all financial transactions have to be physical at the bank. With introduction of fintech companies, most banks have now shift their dominant/rigid ideaology to a very flexible system where transaction is now done on the go. <br />
+            <div className='the-title animate__animated animate__fadeInUp'>The mobile app</div>
+            <div className='the-content animate__animated animate__fadeInUp'>One of the changes with financial institution is that it’s now mobile unlike before where all financial transactions have to be physical at the bank. With introduction of fintech companies, most banks have now shift their dominant/rigid ideaology to a very flexible system where transaction is now done on the go. <br />
                 Shange It is a startup who aim is to make the currency exchange seemless for users.</div>
 
             {/* Design Process */}
-            <div className='design-title'>The design process</div>
-            <div className='design-content'>This is how I generate a conceptual solution for a problem. I approached this in a dynamic approach (it’s not really a linear process, depends on the project and my role).</div>
-            <div className='design-sub-content'>
+            <div className='design-title animate__animated animate__fadeInUp'>The design process</div>
+            <div className='design-content animate__animated animate__fadeInUp'>This is how I generate a conceptual solution for a problem. I approached this in a dynamic approach (it’s not really a linear process, depends on the project and my role).</div>
+            <div className='design-sub-content animate__animated animate__fadeInUp'>
                 <ul>
                   <li>Empathize</li>
                   <li>Define</li>
@@ -128,9 +128,9 @@ function ShangeIt({darkMode}) {
             </div>
 
             {/* Business Goals */}
-            <div className='the-title'>Business Goals and Opportunity for impact</div>
-            <div className='the-content-low2'>I pitched the following idea with the team to fasten our awareness of the Shange It app.</div>
-              <ul className='sub-content space'>
+            <div className='the-title animate__animated animate__fadeInUp'>Business Goals and Opportunity for impact</div>
+            <div className='the-content-low2 animate__animated animate__fadeInUp'>I pitched the following idea with the team to fasten our awareness of the Shange It app.</div>
+              <ul className='sub-content space animate__animated animate__fadeInUp'>
                 <li>Enable the user to connect with buyers or sellers.</li>
                 <li>In-app message system.</li>
                 <li>Fast and effective customer support system.</li>
@@ -140,11 +140,11 @@ function ShangeIt({darkMode}) {
               </ul>
 
             {/* Findings */}
-            <div className='the-title'>Findings</div>
-            <div className='the-content-low'>We interviewed ten (10) people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;
+            <div className='the-title animate__animated animate__fadeInUp'>Findings</div>
+            <div className='the-content-low animate__animated animate__fadeInUp'>We interviewed ten (10) people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;
             </div>
             {/* Analysis */}
-            <div className='current-state'>
+            <div className='current-state animate__animated animate__fadeInUp'>
                 <div className='col1'>
                   <div className='state-title'>100%</div>
                   <div className='state-content'>want a simple currency exchange. With few clicks, users should see through a transaction.</div>
@@ -162,48 +162,48 @@ function ShangeIt({darkMode}) {
             </div>
 
             {/* Simple Currency Exchange */}
-            <div className='sub-title1 remove'>SIMPLE CURRENCY EXCHANGE</div>
-            <div className='sub-content1'>We want our users to have an amamzing and seemless experience while using the app. This helps in improving our customer satifaction score as well as reducing the error rate of our users.</div>
+            <div className='sub-title1 remove animate__animated animate__fadeInUp'>SIMPLE CURRENCY EXCHANGE</div>
+            <div className='sub-content1 animate__animated animate__fadeInUp'>We want our users to have an amamzing and seemless experience while using the app. This helps in improving our customer satifaction score as well as reducing the error rate of our users.</div>
 
             {/* INCREASE CUSTOMER LOYALTY */}
-            <div className='sub-title1'>INCREASE CUSTOMER LOYALTY</div>
-            <div className='sub-content1'>Our user experience should e the one that establish a long lasting relationship with our user so as to increase usage.</div>
+            <div className='sub-title1 animate__animated animate__fadeInUp'>INCREASE CUSTOMER LOYALTY</div>
+            <div className='sub-content1 animate__animated animate__fadeInUp'>Our user experience should e the one that establish a long lasting relationship with our user so as to increase usage.</div>
 
             {/* PRODUCT AWARENESS */}
-            <div className='sub-title1'>PRODUCT AWARENESS</div>
-            <div className='sub-content1'>Download of the Shange It app doesn't assure us of active and users who transact on the platform. Having everyone use and not just have Shange It is what we are striving for and should be met. We’ll use different marketing channel to publicize the platform. Instagram and Youtube is my first got to for ads as most people spend alot of time on does platforms.</div>
+            <div className='sub-title1 animate__animated animate__fadeInUp'>PRODUCT AWARENESS</div>
+            <div className='sub-content1 animate__animated animate__fadeInUp'>Download of the Shange It app doesn't assure us of active and users who transact on the platform. Having everyone use and not just have Shange It is what we are striving for and should be met. We’ll use different marketing channel to publicize the platform. Instagram and Youtube is my first got to for ads as most people spend alot of time on does platforms.</div>
 
             {/* MULTIPLE BENEFICIARIES IN A SINGLE TRANSACTION*/}
-            <div className='sub-title1'>MULTIPLE BENEFICIARIES IN A SINGLE TRANSACTION</div>
-            <div className='sub-content1 extra'>We want our users to be able to send money to more than one beneficiary in a single transaction.</div>
+            <div className='sub-title1 animate__animated animate__fadeInUp'>MULTIPLE BENEFICIARIES IN A SINGLE TRANSACTION</div>
+            <div className='sub-content1 extra animate__animated animate__fadeInUp'>We want our users to be able to send money to more than one beneficiary in a single transaction.</div>
 
             {/* Visuals */}
-            <div className='the-title'>Ideating & Visuals</div>
-            <div className='the-content-low'>I ensured that we have our sessions every 4 days to brainstorm solutions to underlying problem together on an online remote session with people in different locations (the US, UK and Nigeria). I moderated the sessions.</div>
-            <div className='sub-title'>Sketch</div>
-            <div className='img-sketch'> <img src={ShangeSketch} width="100%" height="100%" alt=''/></div>
-            <div className='sub-title'>Low - Fi</div>
-            <div className='img-low-fi'> <img src={ShangeLoFi} width="100%" height="100%" alt=''/></div>
-            <div className='sub-title'>High - Fi</div>
-            <div className='img-low-fi'> <img src={ShangeHiFi} width="100%" height="100%" alt=''/></div>
+            <div className='the-title animate__animated animate__fadeInUp'>Ideating & Visuals</div>
+            <div className='the-content-low animate__animated animate__fadeInUp'>I ensured that we have our sessions every 4 days to brainstorm solutions to underlying problem together on an online remote session with people in different locations (the US, UK and Nigeria). I moderated the sessions.</div>
+            <div className='sub-title animate__animated animate__fadeInUp'>Sketch</div>
+            <div className='img-sketch animate__animated animate__fadeInUp'> <img src={ShangeSketch} width="100%" height="100%" alt=''/></div>
+            <div className='sub-title animate__animated animate__fadeInUp'>Low - Fi</div>
+            <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeLoFi} width="100%" height="100%" alt=''/></div>
+            <div className='sub-title animate__animated animate__fadeInUp'>High - Fi</div>
+            <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeHiFi} width="100%" height="100%" alt=''/></div>
 
             {/* User flow and Interaction */}
-            <div className='the-title'>User flow and Interaction</div>
-            <div className='the-content'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which allow users test the Shange It app.</div>
+            <div className='the-title animate__animated animate__fadeInUp'>User flow and Interaction</div>
+            <div className='the-content animate__animated animate__fadeInUp'>The user flow was designed for multiple features and functionality of the Shange It app. The flows are quite large and exclusive to the team and I’ve decided not to include them in this case study. The user flow helped in the interaction of the visuals. I was able to get the behaviour (interaction) of the visuals available for prototype which allow users test the Shange It app.</div>
 
             {/* Interactive Prototype */}
-            <div className='the-title'>Interactive prototype</div>
-            <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
+            <div className='the-title animate__animated animate__fadeInUp'>Interactive prototype</div>
+            <div className='the-content-low animate__animated animate__fadeInUp'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
             {/* <div className='img-low-fi'> <img src={ShangePrototype} width="100%" height="100%" alt=''/></div> */}
-            <div className='video'>
+            <div className='video animate__animated animate__fadeInUp'>
                 <ReactPlayer width='100%' height='500px'
                 controls loop url='https://www.youtube.com/watch?v=0jCPcJRnqqE' />
             </div>
 
             {/* Aftermath and Retrospective */}
-            <div className='the-title'>Retaining Users</div>
-            <div className='the-content-low2'>I pitched the following idea with the team to fasten our awareness of the Shange It app.</div>
-              <ul className='sub-content sub-space'>
+            <div className='the-title animate__animated animate__fadeInUp'>Retaining Users</div>
+            <div className='the-content-low2 animate__animated animate__fadeInUp'>I pitched the following idea with the team to fasten our awareness of the Shange It app.</div>
+              <ul className='sub-content sub-space animate__animated animate__fadeInUp'>
                 <li>Referral reward.</li>
                 <li>Discount on their first 10 transactions on the platform.</li>
                 <li>Bonus for total transaction greater than $5,000 within a month.</li>
@@ -213,13 +213,13 @@ function ShangeIt({darkMode}) {
               </ul>
 
             {/* Hand-off */}
-            <div className='the-title-top2'>Hand-off</div>
-            <div className='the-content'>I prepared a detailed design system to the team on Figma file to help developer while developing.</div>
+            <div className='the-title-top2 animate__animated animate__fadeInUp'>Hand-off</div>
+            <div className='the-content animate__animated animate__fadeInUp'>I prepared a detailed design system to the team on Figma file to help developer while developing.</div>
 
             {/* Aftermath and Retrospective */}
-            <div className='the-title'>Aftermath and Retrospective</div>
-            <div className='the-content-low2'>Learning is constant. Below is what I learnt while working on the project:</div>
-              <ul className='sub-content sub-space'>
+            <div className='the-title animate__animated animate__fadeInUp'>Aftermath and Retrospective</div>
+            <div className='the-content-low2 animate__animated animate__fadeInUp'>Learning is constant. Below is what I learnt while working on the project:</div>
+              <ul className='sub-content sub-space animate__animated animate__fadeInUp'>
                 <li>Keep an open mind and always listen.</li>
                 <li>Easy prototyping helps users navigate well when using a platform.</li>
                 <li>I learnt the importance of research and proper understanding of product.</li>
@@ -227,19 +227,19 @@ function ShangeIt({darkMode}) {
               </ul>
 
             {/* Project Status*/}
-            <div className='the-title-top2'>Project Status</div>
-            <div className='the-content'>As of when this case study was published, the project isn’t live yet reason best known to the client.</div>
+            <div className='the-title-top2 animate__animated animate__fadeInUp'>Project Status</div>
+            <div className='the-content animate__animated animate__fadeInUp'>As of when this case study was published, the project isn’t live yet reason best known to the client.</div>
 
             {/* Team */}
-            <div className='team'>Team</div>
-            <div className='team-mate'>
+            <div className='team animate__animated animate__fadeInUp'>Team</div>
+            <div className='team-mate animate__animated animate__fadeInUp'>
                 Sam - Software Engineer<br /> <br />
                 Mr. Dami- Co Founder <br /> <br />
                 Mr. Seyi- Co Founder
             </div>
 
-            <div className="next-project">NEXT PROJECT</div>
-            <div className='next-project-title' onClick={() => {navigate("/drone-app");}}>Drone App</div>
+            <div className="next-project animate__animated animate__fadeInUp">NEXT PROJECT</div>
+            <div className='next-project-title animate__animated animate__fadeInUp' onClick={() => {navigate("/drone-app");}}>Drone App</div>
 
       </div>
 

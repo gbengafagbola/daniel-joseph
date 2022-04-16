@@ -3,6 +3,7 @@ import DjAbout from '../../assets/images/dj-about.jpg';
 import {ReactComponent as PlanetSvg} from '../../assets/svg/planet.svg';
 import Employment from '../../components/employment/employment';
 import Helmet from 'react-helmet';
+import 'animate.css'
 
 function About({darkMode}) {
   return (
@@ -15,10 +16,10 @@ function About({darkMode}) {
         />
       </Helmet>
         <div className='about-container'>
-          <div className='about-title'>About</div>
+          <div className='about-title animate__animated animate__fadeInUp'>About</div>
 
           {/* <PlanetSvg className="planet"/> */}
-          <div className='about-me'>
+          <div className='about-me animate__animated animate__fadeInUp'>
               <div className='my-pic'> <img src={DjAbout} width="100%" height="100%" alt=''/></div>
               <div className='my-story'>
                 <div className='iam'> HI 👋🏽, MY NAME IS DANIEL JOSEPH</div> <br />

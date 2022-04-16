@@ -7,6 +7,7 @@ import WorkiNN from '../../assets/images/WORKiNN.jpg';
 import DesignSystem from '../../assets/images/Design System.jpg';
 import LogioFolio from '../../assets/images/Logofolio.jpg';
 // import FlyerFolio from '../../assets/images/Tribal Play Hi-Fi.png';
+import 'animate.css'
 
 import './playground.css';
 
@@ -22,53 +23,53 @@ function Playground({darkMode}) {
         </Helmet>
       
         <div className='playground-container'>
-            <div className='playground-header'>Playground </div>
-            <div className='playground-header-brief'>These are some of the exciting projects.</div>
+            <div className='playground-header animate__animated animate__fadeInUp'>Playground </div>
+            <div className='playground-header-brief animate__animated animate__fadeInUp'>These are some of the exciting projects.</div>
             
             {/* Browser Template */}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={BrowseTemplate} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Browser Template</div>
                 <div className='play-project-content'>A browser template mock up for web designs.</div>
             </div>
 
             {/* iXn*/}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={iXn} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>iXn</div>
                 <div className='play-project-content'>PWA file converter.</div>
             </div>
 
             {/* Teflow*/}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={Teflow} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Teflow</div>
                 <div className='play-project-content'>A news agency platform giving newbies accomodating experience.</div>
             </div>
 
             {/*MoveBot*/}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={MoveBot} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>MoveBot</div>
                 <div className='play-project-content'>Product Delivery Package box for a delivery company.</div>
             </div>
 
             {/* WorkiNN */}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={WorkiNN} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>WorkiNN Branding</div>
                 <div className='play-project-content'>Branding for a Tech Hub company that gives room for different tech activities such as; learning, talk show, digital services, event center, and game center.</div>
             </div>
 
             {/* Design System */}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={DesignSystem} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Design System</div>
                 <div className='play-project-content'>I always work with design system to make design consistent and hand-off 100% natural.</div>
             </div>
 
             {/* Logofolio */}
-            <div className='play-project'>
+            <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={LogioFolio} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Logofolio</div>
                 <div className='play-project-content'>Some of my recent logo profile.</div>
@@ -81,8 +82,8 @@ function Playground({darkMode}) {
                 <div className='play-project-content'>Promotional flyer for products.</div>
             </div> */}
 
-            <div className="playground-view ">VIEW MORE?</div>
-            <div className='project-click'>Click Me</div>
+            <div className="playground-view animate__animated animate__fadeInUp">VIEW MORE?</div>
+            <div className='project-click animate__animated animate__fadeInUp'>Click Me</div>
         </div>
   
       </div>

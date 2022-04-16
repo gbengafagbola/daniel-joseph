@@ -13,6 +13,7 @@ import IleImage4 from '../../assets/images/Ile Image 4.png';
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
+import 'animate.css'
 
 
 import './ile-wa.css';
@@ -31,14 +32,14 @@ function IleWa({darkMode}) {
       </Helmet>
 
       <div className='ile-container'>
-          <div className='ile-header'>Ile Wa</div>
-          <div className='ile-header-brief'>A unique identity and a PWA website design.</div>
+          <div className='ile-header animate__animated animate__fadeInUp'>Ile Wa</div>
+          <div className='ile-header-brief animate__animated animate__fadeInUp'>A unique identity and a PWA website design.</div>
           
           {/* Cover Image */}
-          <div className='ile-cover'> <img src={IleWaCover} width="100%" height="100%" alt=''/></div>
+          <div className='ile-cover animate__animated animate__fadeInUp'> <img src={IleWaCover} width="100%" height="100%" alt=''/></div>
 
           {/* Impact and Role */}
-          <div className='impact-role'>
+          <div className='impact-role animate__animated animate__fadeInUp'>
               <div className='impact-col'>
               <div className='the-title'>Impact</div>
                 <div className='the-content'>A unique identity, faster rate to reach more audience, showcase their works and book for their services.</div>
@@ -51,27 +52,27 @@ function IleWa({darkMode}) {
           </div>
           
           {/* The challenge */}
-          <div className='the-title'>The Challenge</div>
-          <div className='the-content'>Ile Wa was in dire need of some branding refocus, customers visibility, visual consistency, and a website. They don’t have a website, so they can’t reach a large audience. <br />
+          <div className='the-title animate__animated animate__fadeInUp'>The Challenge</div>
+          <div className='the-content animate__animated animate__fadeInUp'>Ile Wa was in dire need of some branding refocus, customers visibility, visual consistency, and a website. They don’t have a website, so they can’t reach a large audience. <br />
               My goal was to create an identity and overall look and feel of the brand. Also, showcase some of their work on a visually appealing website that is responsive, bringing creativity, visual consistency, and identity to the brand.</div>
 
           {/* The solution */}
-          <div className='the-title'>The Solution</div>
-          <div className='the-content'>After extensive research and data analysis, I pushed a unique identity for Ile Wa, allowing their market team to feel more relaxed and creative in the process. I have introduced a clean and minimalist design approach to make the identity unique, classy, and at the same time playful.</div>
+          <div className='the-title animate__animated animate__fadeInUp'>The Solution</div>
+          <div className='the-content animate__animated animate__fadeInUp'>After extensive research and data analysis, I pushed a unique identity for Ile Wa, allowing their market team to feel more relaxed and creative in the process. I have introduced a clean and minimalist design approach to make the identity unique, classy, and at the same time playful.</div>
       
           {/* Identity */}
-          <div className='the-title'>Identity</div>
-          <div className='the-content-low'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
-          <div className='spec-img space'> <img src={IleIdentity1} width="100%" height="100%" alt=''/></div>
-          <div className='spec-img space'> <img src={IleIdentity2} width="100%" height="100%" alt=''/></div>
+          <div className='the-title animate__animated animate__fadeInUp'>Identity</div>
+          <div className='the-content-low animate__animated animate__fadeInUp'>This was made to be very simple, clean, modern and unique that appealed to the value it’s bringing.</div>
+          <div className='spec-img space animate__animated animate__fadeInUp'> <img src={IleIdentity1} width="100%" height="100%" alt=''/></div>
+          <div className='spec-img space animate__animated animate__fadeInUp'> <img src={IleIdentity2} width="100%" height="100%" alt=''/></div>
 
-          <div className='video'>
+          <div className='video animate__animated animate__fadeInUp'>
                 <ReactPlayer width='100%' height='500px'
                 controls playing loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
           </div>
 
             {/* Impact and Role */}
-            <div className='impact-role'>
+            <div className='impact-role animate__animated animate__fadeInUp'>
 
                 <div className='impact-col'>
                 {/* Team */}

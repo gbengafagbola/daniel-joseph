@@ -26,15 +26,15 @@ function SpecNota({darkMode}) {
       </Helmet>
       
       <div className='spec-nota-container'>
-          <div className='spec-nota-header'>Spec Nota</div>
+          <div className='spec-nota-header animate__animated animate__fadeInUp'>Spec Nota</div>
           
-          <div className='spec-nota-header-brief'>Modern and seemless project management tool.</div>
+          <div className='spec-nota-header-brief animate__animated animate__fadeInUp'>Modern and seemless project management tool.</div>
           
           {/* Cover Image */}
-          <div className='spec-cover'> <img src={SpecCover} width="100%" height="100%" alt=''/></div>
+          <div className='spec-cover animate__animated animate__fadeInUp'> <img src={SpecCover} width="100%" height="100%" alt=''/></div>
          
           {/* Impact and Role */}
-          <div className='impact-role'>
+          <div className='impact-role animate__animated animate__fadeInUp'>
               <div className='impact-col'>
                 <div className='the-title'>Impact</div>
                 <div className='the-content'>The platform was x4 faster than the previous build, which increased client interest in using the platform. The UI design was modern and interactive.</div>
@@ -47,22 +47,22 @@ function SpecNota({darkMode}) {
           </div>
           
           {/* The challenge */}
-          <div className='the-title'>The Challenge</div>
-          <div className='the-content'>Spec Nota provides a workspace to organize a task, handle documentation, annotation, and time tracker. As at when I worked on the project, through user research and testing, the attributes listed above were the challenge we were hoping to solve.</div>
+          <div className='the-title animate__animated animate__fadeInUp'>The Challenge</div>
+          <div className='the-content animate__animated animate__fadeInUp'>Spec Nota provides a workspace to organize a task, handle documentation, annotation, and time tracker. As at when I worked on the project, through user research and testing, the attributes listed above were the challenge we were hoping to solve.</div>
 
           {/* The solution */}
-          <div className='the-title'>The Solution</div>
-          <div className='the-content'>After working with the developer to identify a stack that is fast, I provided insights, best practices, and modern design for underlying problems.</div>
+          <div className='the-title animate__animated animate__fadeInUp'>The Solution</div>
+          <div className='the-content animate__animated animate__fadeInUp'>After working with the developer to identify a stack that is fast, I provided insights, best practices, and modern design for underlying problems.</div>
 
           {/* Expectations */}
-          <div className='the-title'>Overview</div>
-          <div className='the-content'>Project management tools have helped tremendiously and helped alot of individual to track progress, assigning tasks, documenting and drawing flows especially when the case of COVID-19 was high. Spec Nota is a project management tool for annotation, diagram/flow, task and project documentation.</div>
+          <div className='the-title animate__animated animate__fadeInUp'>Overview</div>
+          <div className='the-content animate__animated animate__fadeInUp'>Project management tools have helped tremendiously and helped alot of individual to track progress, assigning tasks, documenting and drawing flows especially when the case of COVID-19 was high. Spec Nota is a project management tool for annotation, diagram/flow, task and project documentation.</div>
 
           {/* Current State */}
-          <div className='the-title'>Current State</div>
-          <div className='the-content-low'>We interviewed people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;</div>
+          <div className='the-title animate__animated animate__fadeInUp'>Current State</div>
+          <div className='the-content-low animate__animated animate__fadeInUp'>We interviewed people who worked in the US, UK, and Nigeria from different positions with various company sizes and responsibilities. We found;</div>
           {/* Current State Grid */}
-          <div className='current-state'>
+          <div className='current-state animate__animated animate__fadeInUp'>
               <div className='col1'>
                 <div className='state-title'>80%</div>
                 <div className='state-content'>of users find it very difficult to add others to a task, share project, assign users, and add file to a task.</div>

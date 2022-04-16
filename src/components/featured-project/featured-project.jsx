@@ -7,6 +7,7 @@ import ShangIt from '../../assets/images/Shange It.jpg';
 import DroneApp from '../../assets/images/Drone App.jpg';
 import TribalPlay from '../../assets/images/Tribal Play.jpg';
 import { useNavigate } from 'react-router-dom';
+import 'animate.css'
 
 
 export default function FeaturedProject() {
@@ -18,7 +19,7 @@ export default function FeaturedProject() {
 
         {/* <PlanetSvg className="planet"/> */}
 
-        <div className='projects'>
+        <div className='projects animate__animated animate__fadeInUp'>
 
             <div className='project-title' onClick={() => {navigate("/spec-nota");}}>Spec Nota
             <div className='project-content'>Modern and seemless project management tool.</div>

@@ -2,6 +2,7 @@ import './footer.css'
 
 
 export default function Footer({darkMode}) {
+  const year = new Date().getFullYear();
     return (
       <div  className={darkMode ? "dark-mode" : "light-mode"}>
 
@@ -18,9 +19,9 @@ export default function Footer({darkMode}) {
           <div className='line'></div>
 
           <div className="bottom-footer">
-              
+               
             <div className="copyright">
-            Made with ❤️ by Daniel Joseph. 2021
+            Made with ❤️ by Daniel Joseph. {year}
             </div>
 
 

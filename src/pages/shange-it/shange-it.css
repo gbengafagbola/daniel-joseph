@@ -1,5 +1,5 @@
 .shange-container {
-    padding: 50px 200px;  
+    padding: 80px 200px;  
 }
 
 .shange-header {
@@ -119,7 +119,7 @@
 @media only screen and (max-width: 1200px) {
 
     .shange-container {
-        padding: 30px 80px;  
+        padding: 80px 80px;  
     }
 
     .shange-header {
@@ -137,7 +137,7 @@
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 780px) {
     .shange-container{
-        padding: 30px 50px;
+        padding: 60px 50px;
     }
 
     .shange-header-brief {
@@ -263,8 +263,8 @@
 
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
-    .work-container{
-        padding: 30px 20px;
+    .shange-container{
+        padding: 60px 20px;
     }
 
     .height-width {

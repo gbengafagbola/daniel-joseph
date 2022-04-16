@@ -213,7 +213,7 @@ span {
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 780px) {
     .main-intro {
-      padding: 50px 50px;
+      padding: 80px 50px;
     }
 
     .moon {
@@ -241,7 +241,7 @@ span {
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 450px) {
     .main-intro {
-      padding: 30px 20px;
+      padding: 60px 20px;
     }
 
     .description {

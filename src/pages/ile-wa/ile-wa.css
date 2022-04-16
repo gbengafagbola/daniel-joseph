@@ -1,5 +1,5 @@
 .ile-container {
-    padding: 50px 200px;  
+    padding: 80px 200px;  
 }
 
 .ile-header {
@@ -80,7 +80,7 @@
 @media only screen and (max-width: 1200px) {
 
     .ile-container {
-        padding: 30px 80px;  
+        padding: 80px 80px;  
     }
 
     .ile-header {
@@ -99,7 +99,7 @@
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 780px) {
     .ile-container{
-        padding: 30px 50px;
+        padding: 60px 50px;
     }
 
     .ile-header-brief {
@@ -218,8 +218,8 @@
 
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
-    .work-container{
-        padding: 30px 20px;
+    .ile-container{
+        padding: 60px 20px;
     }
 
     

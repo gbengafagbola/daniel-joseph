@@ -21,10 +21,6 @@
 }
 
 
-
-
-
-
 .main {
     width: 100%;
     height: 56px;
@@ -75,7 +71,6 @@
   .nav-icon {
     display: none;
   }
-  
 
 
 
@@ -107,11 +102,26 @@
     /* color: #444; */
     text-decoration: none;
   }
-  
+
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  padding-right: 200px;
+  /* color: #000; */
+  font-size: 18px;
+}
 
 
 
-  @media only screen and (max-width: 1200px) {
+
+
+
+
+
+/* Responsiveness @ 1200px */
+@media only screen and (max-width: 1200px) {
 
     .main {
       padding-top: 36px;
@@ -121,31 +131,59 @@
       padding-left: 80px;
     }
     .nav-menu {
-      display: none;
+      /* display: none; */
       padding-top: 80px;
     }
-  
-    .nav-icon {
-      display: flex;
-    }
-
   }
 
-
-  /* Responsiveness @ 450px */
+  /* Responsiveness @ 780px */
 @media only screen and (max-width: 780px) {
   .logo {
     padding-left: 50px;
   }
 
-  .nav-icon {
-    display: flex;
-    padding-right: 20px;
-    width: 48px;
-    height: 52px;
-  }
+
+
+  /* Hamburger */
+  .nav-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    flex-direction: column;
+    background: #000;
+    align-content: center;
+    color: #fff;
+}
+  .nav-item:nth-child(1){
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-top: 50px;
+}
+  .nav-item {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px 0;
+}
+.btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
 
 }
+
+
+
+
 
 
 /* Responsiveness @ 450px */
@@ -154,12 +192,5 @@
     padding-left: 20px;
   }
 
-  .nav-icon {
-    display: flex;
-    padding-right: 20px;
-    width: 48px;
-    height: 52px;
-  }
 
 }
-  

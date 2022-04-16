@@ -1,6 +1,6 @@
 
 .about-container {
- padding: 50px 200px;    
+ padding: 80px 200px;    
 }
 
 .about-title {
@@ -49,7 +49,7 @@
 @media only screen and (max-width: 1200px) {
 
     .about-container {
-        padding: 30px 80px;  
+        padding: 80px 80px;  
     }
 
     .planet {
@@ -82,7 +82,7 @@
 @media only screen and (max-width: 780px) {
 
     .about-container {
-        padding: 30px 50px;  
+        padding: 60px 50px;  
     }
 
     .about-me {
@@ -122,6 +122,6 @@
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
     .about-container{
-        padding: 30px 20px;
+        padding: 60px 20px;
     }
 }

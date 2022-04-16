@@ -1,0 +1,83 @@
+.error-container {
+    padding: 80px 200px;  
+}
+
+.error-title {
+    font-family: 'Bw Vivant';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 40px;
+     /* line-height: 96px; */
+     text-align: center;
+}
+
+.error-icon {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 16px;
+}
+
+.abeg {
+    font-family: 'Euclid Circular A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+.go-home{
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+/* Responsiveness @ 1200px */
+@media only screen and (max-width: 1200px) {
+    .error-container {
+        padding: 80px 80px;  
+    }
+    
+}
+
+/* Responsiveness Tab2 */
+@media only screen and (max-width: 780px) {
+    .error-container{
+        padding: 60px 50px;
+    }
+
+    .error-title {
+        font-weight: 400;
+        font-size: 32px;
+        /* line-height: 96px; */
+   }
+
+   .go-home {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    }
+
+    .abeg {
+        padding-top: 60px;
+    }
+}
+
+/* Responsiveness @ 450px */
+@media only screen and (max-width: 500px) {
+    .error-container{
+        padding: 60px 20px;
+    }
+
+    .error-title {
+         font-weight: 400;
+         font-size: 24px;
+         /* line-height: 96px; */
+    }
+}

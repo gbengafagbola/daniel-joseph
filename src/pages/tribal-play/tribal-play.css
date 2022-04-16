@@ -56,7 +56,7 @@
 @media only screen and (max-width: 1200px) {
 
     .tribal-container {
-        padding: 30px 80px;  
+        padding: 80px 80px;  
     }
 
     .tribal-header {
@@ -74,7 +74,7 @@
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 780px) {
     .tribal-container{
-        padding: 30px 50px;
+        padding: 60px 50px;
     }
 
     .tribal-header-brief {
@@ -193,7 +193,7 @@
 
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 500px) {
-    .work-container{
-        padding: 30px 20px;
+    .tribal-container{
+        padding: 60px 20px;
     }
 }

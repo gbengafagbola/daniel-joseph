@@ -1,10 +1,15 @@
-import {ReactComponent as Arrow} from '../../assets/svg/Arrow.svg';
-import {ReactComponent as SideArrow} from '../../assets/svg/side-arrow.svg';
+// import {ReactComponent as Arrow} from '../../assets/svg/Arrow.svg';
+// import {ReactComponent as SideArrow} from '../../assets/svg/side-arrow.svg';
+import { useNavigate } from 'react-router-dom';
+
 import './employment.css'
 
 
 
 export default function Employment() {
+
+  let navigate = useNavigate();
+
     return (
         <div className="employment-container">
             <div className='work-title animate__animated animate__fadeInUp'>Work <br /> Summary</div>
@@ -25,7 +30,7 @@ export default function Employment() {
             </div>
 
 
-            <div className='my-resume animate__animated animate__fadeInUp'> my resume <Arrow className='arrow'/></div>
+            <div className='my-resume oover animate__animated animate__fadeInUp'>view my resume</div>
 
 
             <div className='work-title animate__animated animate__fadeInUp'>Learning & <br /> Education</div>
@@ -44,28 +49,36 @@ export default function Employment() {
             <div className='space'></div>
 
             <div className='work-title animate__animated animate__fadeInUp'>I’ve got different playlist depending on my mood</div>
-            <div className='request animate__animated animate__fadeInUp'>MAKE A REQUEST FOR MY PLAYLIST  <SideArrow className='side-arrow'/></div>
+            <div className='request oover animate__animated animate__fadeInUp'>
+                  MAKE A REQUEST FOR MY PLAYLIST 
+                  {/* <SideArrow className='side-arrow'/> */}
+            </div>
 
             <div className='work-title animate__animated animate__fadeInUp'>I also write</div>
 
             <div className='write-up animate__animated animate__fadeInUp'>
-              <div className='write-container1'>
-                <div className='write-title'>Tech  Beginner? It’s Cloudy</div>
-                <div className='write-content'>It can be confusing at first where to start your career in tech. This is not a now issue, most people who are don in their field also have passed thro...</div>
-                <div className='read-more'>READ MORE<SideArrow className='side-arrow'/></div>
-
+              <div className='write-container1 oover' onClick={() => window.open('https://dharnyz.hashnode.dev/an-hack-to-building-product-design')}>
+                <div className='write-title'>An Hack to Building Product (Design)</div>
+                <div className='write-content'>Building a Product is not an easy task. I have experienced this in different scenarios and I have been able to put down some things I ...</div>
+                <div className='read-more'>
+                      READ MORE
+                    {/* <SideArrow className='side-arrow'/> */}
+                </div>
               </div>
 
-              <div className='write-container2'>
+              <div className='write-container2 oover'>
                 <div className='write-title'>Pick it up. Live in the moment.</div>
                 <div className='write-content'>Most persons have struggled with living in the moment just because they’ve carried the worlds burden on themselves. Carry this burden ... </div>
-              <div className='read-more'>READ MORE<SideArrow className='side-arrow'/></div>
+                    <div className='read-more'>
+                        READ MORE
+                        {/* <SideArrow className='side-arrow'/> */}
+                    </div>
               </div>
             </div>
 
             <div className='shy animate__animated animate__fadeInUp'>DON’T BE SHY. <br /> HAVE YOU GOT AN AMAZING AND EXCITING PROJECTS?</div>
 
-            <div className='my-resume animate__animated animate__fadeInUp'>Get in touch<Arrow className='arrow'/></div>
+            <div className='my-resume oover animate__animated animate__fadeInUp'>Get in touch</div>
 
         </div>  
     )

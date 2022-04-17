@@ -45,7 +45,7 @@ function TribalPlay({darkMode}) {
 
         {/* Prototype */}
         {/* <div className='tribal-prototype'> <img src={TribalPrototype} width="100%" height="100%" alt=''/></div>  */}
-        <div className='video'>
+        <div className='video oover'>
             <ReactPlayer width='100%' height='500px'
             controls loop autostart url='https://www.youtube.com/watch?v=RV6TOgP0Eas' />
         </div>
@@ -67,7 +67,7 @@ function TribalPlay({darkMode}) {
         </div>
 
         <div className="next-project">GET TO KNOW ME</div>
-        <div className='next-project-title' onClick={() => {navigate("/about");}}>About Me</div>
+        <div className='next-project-title oover' onClick={() => {navigate("/about");}}>About Me</div>
 
       </div>
 

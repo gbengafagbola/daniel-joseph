@@ -23,7 +23,7 @@ function ErrorPage({darkMode}) {
             <div className='error-title animate__animated animate__fadeInUp'>Oops! You are in a wrong page.</div>
 
             <div className="abeg animate__animated animate__fadeInUp">Abeg</div>
-            <div className='go-home animate__animated animate__fadeInUp' onClick={() => {navigate("/");}}>Go to Home Page</div>
+            <div className='go-home oover animate__animated animate__fadeInUp' onClick={() => {navigate("/");}}>Go to Home Page</div>
         </div>
 
 

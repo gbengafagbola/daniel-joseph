@@ -1,5 +1,5 @@
 import Introduction from "../../components/introduction/introduction";
-import Image from "../../components/image/image";
+// import Image from "../../components/image/image";
 import FeaturedProject from "../../components/featured-project/featured-project";
 import Helmet from "react-helmet";
 
@@ -16,7 +16,7 @@ function Home({darkMode}) {
         />
       </Helmet>
       <Introduction />
-      <Image />
+      {/* <Image /> */}
       <FeaturedProject />
     </div>
   );

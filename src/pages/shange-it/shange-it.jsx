@@ -195,7 +195,7 @@ function ShangeIt({darkMode}) {
             <div className='the-title animate__animated animate__fadeInUp'>Interactive prototype</div>
             <div className='the-content-low animate__animated animate__fadeInUp'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
             {/* <div className='img-low-fi'> <img src={ShangePrototype} width="100%" height="100%" alt=''/></div> */}
-            <div className='video animate__animated animate__fadeInUp'>
+            <div className='video oover animate__animated animate__fadeInUp'>
                 <ReactPlayer width='100%' height='500px'
                 controls loop url='https://www.youtube.com/watch?v=0jCPcJRnqqE' />
             </div>
@@ -239,7 +239,7 @@ function ShangeIt({darkMode}) {
             </div>
 
             <div className="next-project animate__animated animate__fadeInUp">NEXT PROJECT</div>
-            <div className='next-project-title animate__animated animate__fadeInUp' onClick={() => {navigate("/drone-app");}}>Drone App</div>
+            <div className='next-project-title oover animate__animated animate__fadeInUp' onClick={() => {navigate("/drone-app");}}>Drone App</div>
 
       </div>
 

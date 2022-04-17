@@ -1,5 +1,7 @@
 .featured-container {
-    margin: 150px 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 150px;
 }
 
 .featured-title {
@@ -10,6 +12,7 @@
     font-size: 16px;
     line-height: 23px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .planet {
@@ -55,8 +58,8 @@
     width: 400px;
     max-height: 300px;
     position: absolute;
-    right: 30%;
-    top: 1700px;
+    right: 25%;
+    top: 10px;
     visibility: hidden;
 }
 
@@ -76,8 +79,8 @@
     width: 400px;
     max-height: 300px;
     position: absolute;
-    right: 30%;
-    top: 2000px;
+    right: 25%;
+    top:320px;
     visibility: hidden;
 }
 
@@ -97,8 +100,8 @@
 
 .shang-it {
     position: absolute;
-    right: 30%;
-    top: 2100px;
+    right: 25%;
+    top: 500px;
     visibility: hidden;
 }
 
@@ -118,8 +121,8 @@
 
 .drone-app {
     position: absolute;
-    right: 30%;
-    top: 2420px;
+    right: 25%;
+    top: 830px;
     visibility: hidden;
 }
 
@@ -139,8 +142,8 @@
 
 .tribal-play {
     position: absolute;
-    right: 15%;
-    top: 2900px;
+    right: 0%;
+    top: 1250px;
     visibility: hidden;
 }
 
@@ -217,7 +220,8 @@
 /* Responsiveness Tab2 */
 @media only screen and (max-width: 780px) {
     .featured-container {
-        margin: 50px 50px;
+        margin: 0px 50px;
+        padding-bottom: 80px;
     }
 
     .projects {

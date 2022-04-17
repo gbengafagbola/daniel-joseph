@@ -46,7 +46,8 @@ function App() {
                 '.link',
                 '.nav-item',
                 '.onClick',
-                '.main'
+                '.main',
+                '.oover'
             ]}
           />
       </div>

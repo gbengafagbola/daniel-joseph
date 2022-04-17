@@ -1,6 +1,8 @@
 import './introduction.css';
 import {ReactComponent as MoonSvg} from '../../assets/svg/moon.svg';
 import {ReactComponent as RocketSvg} from '../../assets/svg/rocket.svg';
+import DjImage from '../../assets/images/dj.jpg';
+
 import 'animate.css'
 
 export default function Introduction() {
@@ -15,7 +17,16 @@ export default function Introduction() {
                 <MoonSvg  className="moon"/>
                 <RocketSvg className="rocket"/>
                 
-                <div className="icon-scroll"></div>  
+                <div className='scroll' align="center">
+                    <div className="icon-scroll"></div>
+                </div>
+
+                <div className="dj-image">
+                    <div className="image animate__animated animate__fadeInUp">
+                        <img src={DjImage} width="100%" height="100%" alt="" />
+                    </div>
+                </div> 
+
             </div>
         </div>
     )

@@ -79,7 +79,7 @@ line-height: 67px;
 .write-up {
     display: flex;
     padding-top: 60px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .write-title {
@@ -102,6 +102,7 @@ line-height: 67px;
 .read-more {
     font-family: 'Euclid Circular A Light';
     padding-top: 24px;
+    font-weight: 700;
 }
 
 
@@ -188,7 +189,7 @@ line-height: 67px;
     .my-resume {
       font-family: 'Bw Vivant';
       font-style: normal;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 40px;
       line-height: 40px;
       text-align: center;
@@ -204,6 +205,7 @@ line-height: 67px;
         font-family: 'Euclid Circular A Light';
         padding-top: 16px;
         padding-bottom: 60px;
+        font-weight: 700;
     }
     
     

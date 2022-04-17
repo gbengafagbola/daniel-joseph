@@ -158,7 +158,7 @@ function SpecNota({darkMode}) {
         <div className='the-title-top'>Interactive prototype</div>
         <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
         {/* <div className='sub-img'> <img src={PrototypeImage} width="100%" height="100%" alt=''/></div> */}
-        <div className='video'>
+        <div className='video oover'>
             <ReactPlayer width='100%' height='500px'
             controls loop url='https://www.youtube.com/watch?v=iSAbrtWA0JY' />
         </div>
@@ -188,7 +188,7 @@ function SpecNota({darkMode}) {
             Anthony Nwobodo - Backend Engineer
         </div>
         <div className="next-project">NEXT PROJECT</div>
-        <div className='next-project-title' onClick={() => {navigate("/ile-wa");}}>Ile Wa</div>
+        <div className='next-project-title oover' onClick={() => {navigate("/ile-wa");}}>Ile Wa</div>
 
 
       </div>

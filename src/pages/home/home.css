@@ -1,0 +1,10 @@
+.go-link-bw {
+    font-weight: 600;
+    border-bottom: 1px solid;
+    transition: 0.5s ease;
+}
+
+.go-link-bw:hover {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(196, 196, 196 0.7);
+}

@@ -68,7 +68,7 @@ function IleWa({darkMode}) {
 
           <div className='video animate__animated animate__fadeInUp'>
                 <ReactPlayer width='100%' height='500px'
-                controls playing loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
+                controls autostart loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
           </div>
 
             {/* Impact and Role */}
@@ -176,7 +176,7 @@ function IleWa({darkMode}) {
               <div className='img-low-fi'> <img src={IleHiFi} width="100%" height="100%" alt=''/></div>
               <div className='img-low-fi'> <img src={IleMobile} width="100%" height="100%" alt=''/></div>
               {/* <div className='img-low-fi'> <img src={IlePrototype} width="100%" height="100%" alt=''/></div> */}
-              <div className='video'>
+              <div className='video oover'>
                 <ReactPlayer width='100%' height='500px'
                 controls loop url='https://www.youtube.com/watch?v=ir71ni-OJG4' />
               </div>
@@ -220,7 +220,7 @@ function IleWa({darkMode}) {
 
             {/* Project Pagination */}
             <div className="next-project">NEXT PROJECT</div>
-            <div className='next-project-title' onClick={() => {navigate("/shange-it");}}>Shange It</div>
+            <div className='next-project-title oover' onClick={() => {navigate("/shange-it");}}>Shange It</div>
 
         </div>
     </div>

@@ -14,13 +14,13 @@ line-height: 67px;
 
 .experience {
     padding-bottom: 80px;
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 
-    gap: 60px;
+    gap: 40px;
 }
 
 
@@ -48,7 +48,7 @@ line-height: 67px;
   line-height: 67px;
 
   text-align: center;
-  padding-top: 80px;
+  padding-top: 0px;
   padding-bottom: 80px;
 }
 
@@ -68,17 +68,27 @@ line-height: 67px;
 .space {
     padding-bottom: 80px;
 }
-
+.get-in-touch {
+    font-family: 'Bw Vivant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+  
+    text-align: center;
+    padding-top: 40px;
+}
 .request {
     font-family: 'Euclid Circular A Light';
-    padding-top: 60px;
+    font-weight: 700;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 
 
 .write-up {
     display: flex;
-    padding-top: 60px;
+    padding-top: 20px;
     gap: 30px;
 }
 
@@ -146,7 +156,7 @@ line-height: 67px;
 
 /* Responsiveness Phone */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 780px) {
     .employment-container {
         padding-top: 0px;
         }
@@ -189,7 +199,7 @@ line-height: 67px;
     .my-resume {
       font-family: 'Bw Vivant';
       font-style: normal;
-      font-weight: 600;
+      font-weight: 400;
       font-size: 40px;
       line-height: 40px;
       text-align: center;
@@ -210,7 +220,7 @@ line-height: 67px;
     
     
     .write-up {
-        padding-top: 60px;
+        padding-top: 20px;
         /* gap: 10px; */
         display: block;
         flex-direction: row;

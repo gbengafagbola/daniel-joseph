@@ -45,7 +45,7 @@ export default function Employment() {
             </div>
 
 
-            <div className='work-title animate__animated animate__fadeInUp'>beyond product <br /> design, I love <br /> teaching</div>
+            <div className='work-title animate__animated animate__fadeInUp'>beyond product <br /> design, I love teaching</div>
             <div className='space'></div>
 
             <div className='work-title animate__animated animate__fadeInUp'>I’ve got different playlist depending on my mood</div>
@@ -67,7 +67,7 @@ export default function Employment() {
               </div>
 
               <div className='write-container2 oover'>
-                <div className='write-title'>Pick it up. Live in the moment.</div>
+                <div className='write-title'>Pick it up now. Live in the moment.</div>
                 <div className='write-content'>Most persons have struggled with living in the moment just because they’ve carried the worlds burden on themselves. Carry this burden ... </div>
                     <div className='read-more'>
                         READ MORE
@@ -78,7 +78,7 @@ export default function Employment() {
 
             <div className='shy animate__animated animate__fadeInUp'>DON’T BE SHY. <br /> HAVE YOU GOT AN AMAZING AND EXCITING PROJECTS?</div>
 
-            <div className='my-resume oover animate__animated animate__fadeInUp'>Get in touch</div>
+            <div className='get-in-touch oover animate__animated animate__fadeInUp'>Get in touch</div>
 
         </div>  
     )

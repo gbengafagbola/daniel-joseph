@@ -42,7 +42,7 @@ export default function Header({darkMode, change}) {
 
         
           <nav>
-          {(toggleMenu || screenWidth > 780) && (
+          {(toggleMenu || screenWidth > 800) && (
               <ul className="nav-menu">
                 <li className="nav-item" onClick={() => {navigate("/about"); setToggleMenu(!toggleMenu)}}> about me </li>
                 <li className="nav-item" onClick={() => {navigate("/work"); setToggleMenu(!toggleMenu)}}> work </li>

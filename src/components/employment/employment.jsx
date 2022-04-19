@@ -78,7 +78,7 @@ export default function Employment() {
 
             <div className='shy animate__animated animate__fadeInUp'>DON’T BE SHY. <br /> HAVE YOU GOT AN AMAZING AND EXCITING PROJECTS?</div>
 
-            <div className='get-in-touch oover animate__animated animate__fadeInUp'>Get in touch</div>
+            <div className='get-in-touch oover animate__animated animate__fadeInUp' onClick={() => {window.open('mailto:josephodaniel19@gmail.com?subject=Let%27s talk Business')}}>Get in touch</div>
 
         </div>  
     )

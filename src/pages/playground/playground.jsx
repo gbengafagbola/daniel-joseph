@@ -7,14 +7,14 @@ import MoveBot from '../../assets/images/MoveBOT.jpg';
 import WorkiNN from '../../assets/images/WORKiNN.jpg';
 import DesignSystem from '../../assets/images/Design System.jpg';
 import LogioFolio from '../../assets/images/Logofolio.jpg';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import 'animate.css'
 
 import './playground.css';
 
 function Playground({darkMode}) {
   
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
     return (
       <div className={darkMode ? "dark-mode" : "light-mode"}>

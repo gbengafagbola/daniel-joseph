@@ -146,7 +146,7 @@
 
   /* Hamburger */
   .nav-menu {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     margin: 0;
@@ -155,11 +155,14 @@
     height: 100vh;
     overflow: hidden;
 
+    opacity: 1;
     flex-direction: column;
     background: #000;
     align-content: center;
     color: #fff;
+    z-index: 5;
 }
+
   .nav-item:nth-child(1){
     border-top: 1px solid rgba(255, 255, 255, 0.555);
     margin-top: 50px;
@@ -173,9 +176,10 @@
 }
 .btn {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 10px;
     top: 10px;
+    z-index: 5;
 }
 
 
@@ -189,7 +193,9 @@
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 450px) {
   .logo {
-    padding-left: 20px;
+    padding-top: 20px;
+    align-self: center;
+    justify-content: center;
   }
 
 

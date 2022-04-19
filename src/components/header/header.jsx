@@ -44,10 +44,10 @@ export default function Header({darkMode, change}) {
           <nav>
           {(toggleMenu || screenWidth > 780) && (
               <ul className="nav-menu">
-                <li className="nav-item" onClick={() => {navigate("/about");}}> about me </li>
-                <li className="nav-item" onClick={() => {navigate("/work");}}> work </li>
-                <li className="nav-item" onClick={() => window.open('https://drive.google.com/drive/folders/1J-9ll3j0gVLS-EWoiO9rpHY6mkM7d5At?usp=sharing')}> resume </li>
-                <li className="nav-item" onClick={() => window.open('mailto:josephodaniel19@gmail.com?subject=Let%27s Chat!')}> contact me </li>
+                <li className="nav-item" onClick={() => {navigate("/about"); setToggleMenu(!toggleMenu)}}> about me </li>
+                <li className="nav-item" onClick={() => {navigate("/work"); setToggleMenu(!toggleMenu)}}> work </li>
+                <li className="nav-item" onClick={() => {window.open('https://drive.google.com/drive/folders/1J-9ll3j0gVLS-EWoiO9rpHY6mkM7d5At?usp=sharing'); setToggleMenu(!toggleMenu)}}> resume </li>
+                <li className="nav-item" onClick={() => {window.open('mailto:josephodaniel19@gmail.com?subject=Let%27s Chat!'); setToggleMenu(!toggleMenu)}}> contact me </li>
                 <li className="nav-item" onClick={change}> { darkMode? <Light className="mode"/> : <Dark className='mode' /> } </li>
               </ul>
           )}
@@ -59,5 +59,3 @@ export default function Header({darkMode, change}) {
     </div>
   )
 }
-
-

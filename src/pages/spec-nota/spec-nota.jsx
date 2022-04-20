@@ -151,13 +151,12 @@ function SpecNota({darkMode}) {
         <div className='img-sketch'> <img src={Sketch} width="100%" height="100%" alt=''/></div>
         <div className='sub-title'>Low - Fi</div>
         <div className='img-low-fi'> <img src={LowFi} width="100%" height="100%" alt=''/></div>
-        <div className='sub-title'>High - Fi</div>
+        <div className='sub-title'>Some High - Fi Screens</div>
         <div> <img src={HighFi} width="100%" height="100%" alt=''/></div>
 
         {/* Visuals */}
         <div className='the-title-top'>Interactive prototype</div>
         <div className='the-content-low'>A well-drafted questionnaire was prepared for the users to fill while testing the solutions to answer and measure to what extent the solutions provided solved their problems.</div>
-        {/* <div className='sub-img'> <img src={PrototypeImage} width="100%" height="100%" alt=''/></div> */}
         <div className='video oover'>
             <ReactPlayer width='100%' height='500px'
             controls loop url='https://www.youtube.com/watch?v=iSAbrtWA0JY' />

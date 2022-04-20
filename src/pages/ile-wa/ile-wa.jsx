@@ -68,7 +68,7 @@ function IleWa({darkMode}) {
 
           <div className='video animate__animated animate__fadeInUp'>
                 <ReactPlayer width='100%' height='500px'
-                controls autostart loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
+                controls autostart="true" loop url='https://www.youtube.com/watch?v=PNKhGYKnCjI' />
           </div>
 
             {/* Impact and Role */}

@@ -87,10 +87,14 @@
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 450px) {
     .playground-container{
-        padding: 20px 20px;
+        padding: 50px 20px;
     }
 
     .playground-header-brief {
         padding-bottom: 60px;
+    }
+
+    .playground-header {
+        font-size: 40px;
     }
 }

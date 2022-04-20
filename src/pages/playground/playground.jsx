@@ -28,7 +28,7 @@ function Playground({darkMode}) {
       
         <div className='playground-container'>
             <div className='playground-header animate__animated animate__fadeInUp'>Playground </div>
-            <div className='playground-header-brief animate__animated animate__fadeInUp'>These are some of the exciting projects.</div>
+            <div className='playground-header-brief animate__animated animate__fadeInUp'>These are some of my exciting projects.</div>
             
             {/* Browser Template */}
             <div className='play-project animate__animated animate__fadeInUp'>

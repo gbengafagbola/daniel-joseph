@@ -7,6 +7,14 @@ import ShangeItIdentity2 from '../../assets/images/Shange It Identity 2.png';
 import ShangeItImage1 from '../../assets/images/Shange It Image 1.png';
 import ShangeItImage2 from '../../assets/images/Shange It Image 2.png';
 import ShangeItLogo from '../../assets/images/Shange It Logo.png';
+import ShangeItWeb from '../../assets/images/Shange It Website.jpg';
+import ShangeItPromo from '../../assets/images/Shange it Promotional Design.jpg';
+
+
+
+
+
+
 import ReactPlayer from 'react-player';
 import Helmet from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
@@ -186,6 +194,9 @@ function ShangeIt({darkMode}) {
             <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeLoFi} width="100%" height="100%" alt=''/></div>
             <div className='sub-title animate__animated animate__fadeInUp'>High - Fi</div>
             <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeHiFi} width="100%" height="100%" alt=''/></div>
+            <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeItWeb} width="100%" height="100%" alt=''/></div>
+            <div className='img-low-fi animate__animated animate__fadeInUp'> <img src={ShangeItPromo} width="100%" height="100%" alt=''/></div>
+
 
             {/* User flow and Interaction */}
             <div className='the-title animate__animated animate__fadeInUp'>User flow and Interaction</div>

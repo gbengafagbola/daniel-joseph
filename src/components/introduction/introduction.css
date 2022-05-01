@@ -282,7 +282,7 @@ span {
 
     .moon {
       position: absolute;
-      top: 500px;
+      top: 540px;
       left: 21px;
       width: 50px;
       height: 48px;
@@ -290,7 +290,7 @@ span {
       
     .rocket {
       position: absolute;
-      top: 120px;
+      top: 490px;
       right: 21px;
       width: 50px;
       height: 60px

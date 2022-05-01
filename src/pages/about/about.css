@@ -8,9 +8,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 80px;
-  line-height: 96px;
+  line-height: 120px;
 
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 80px;
 }
 
@@ -41,9 +41,40 @@
    line-height: 30px;
 }
 
-.iam {
-    font-family: Euclid Circular A;
+.dan-img {
+    padding-bottom: 40px;
 }
+
+.intro-dj {
+    font-family: 'Euclid Circular A';
+    font-size: 16px;
+    font-weight: 500px;
+    /* padding-left: 150px; */
+}
+
+.iam {
+    font-family: 'Euclid Circular A';
+}
+
+.music-title {
+    font-family: 'Bw Vivant';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 56px;
+   line-height: auto;
+   padding-bottom: 24px;
+   
+   }
+.music-content {
+    font-family: 'Euclid Circular A';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+
+   font-family: 'Euclid Circular A Light';
+    line-height: 30px;
+   
+   }
 
 /* Responsiveness @ 1000px */
 @media only screen and (max-width: 1200px) {
@@ -64,13 +95,21 @@
         padding-top: 40px;
     }
 
+    .intro-dj {
+        padding-left: 100px;
+    }
+
+    .about-me {
+        padding-top: 80px;
+    }
+
     .about-title {
         font-family: 'Bw Vivant';
         font-style: normal;
         font-weight: 400;
         font-size: 56px;
         line-height: 96px;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 20px;
       }
 
@@ -102,6 +141,30 @@
         flex: 12;
         padding-bottom: 40px;
     }
+
+    .about-title {
+        padding-bottom: 20px;
+      }
+
+    .intro-dj {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .about-me {
+        padding-top: 0px;
+    }
+
+    .music-title {
+        font-family: 'Bw Vivant';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;
+       line-height: 40px;
+        padding-bottom: 16px;
+
+       
+       }
     
     .my-story {
         flex: 12;
@@ -111,9 +174,9 @@
         font-family: 'Bw Vivant';
         font-style: normal;
         font-weight: 400;
-        font-size: 56px;
-        line-height: 96px;
-        text-align: center;
+        font-size: 40px;
+        line-height: 69px;
+        /* text-align: center; */
         padding-bottom: 20px;
       }
 }
@@ -122,6 +185,10 @@
 /* Responsiveness @ 450px */
 @media only screen and (max-width: 450px) {
     .about-container{
-        padding: 20px 20px;
+        padding: 50px 20px;
     }
+
+    .about-title {
+        padding-bottom: 20px;
+      }
 }

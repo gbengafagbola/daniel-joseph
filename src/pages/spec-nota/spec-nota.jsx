@@ -42,7 +42,8 @@ function SpecNota({darkMode}) {
 
               <div className='role-col'>
                 <div className='the-title'>Role</div>
-                <div className='the-content'>Lead designer, user interview, user research, visual designer, interactive prototype, testing and design system</div>
+                <div className='the-content-low'>Lead designer, user interview, user research, visual designer, interactive prototype, testing and design system</div>
+                <div className=' go-to-link oover' onClick={() => {window.open('https://specnota.app/')}}>GO TO LIVE SITE</div>
               </div>
           </div>
           

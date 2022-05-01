@@ -36,7 +36,8 @@ function TribalPlay({darkMode}) {
 
               <div className='role2-col'>
                 <div className='the-title'>Role</div>
-                <div className='the-content'>Product Design, Interactive prototype</div>
+                <div className='the-content-low'>Product Design, Interactive prototype</div>
+                <div className=' live-site oover' onClick={() => {window.open('https://tribalplay.azurewebsites.net')}}>GO TO LIVE SITE</div>
               </div>
         </div>
 

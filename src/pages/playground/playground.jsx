@@ -7,6 +7,7 @@ import MoveBot from '../../assets/images/MoveBOT.jpg';
 import WorkiNN from '../../assets/images/WORKiNN.jpg';
 import DesignSystem from '../../assets/images/Design System.jpg';
 import LogioFolio from '../../assets/images/Logofolio.jpg';
+import FlyerFolio from '../../assets/images/Flyerfolio.jpg'
 // import { useNavigate } from 'react-router-dom';
 import 'animate.css'
 
@@ -29,6 +30,13 @@ function Playground({darkMode}) {
         <div className='playground-container'>
             <div className='playground-header animate__animated animate__fadeInUp'>Playground </div>
             <div className='playground-header-brief animate__animated animate__fadeInUp'>These are some of my exciting projects.</div>
+            
+            {/* Logofolio */}
+            <div className='play-project animate__animated animate__fadeInUp'>
+                <div className='play-project-image'> <img src={LogioFolio} width="100%" height="100%" alt=''/></div>
+                <div className='play-project-title'>Logofolio</div>
+                <div className='play-project-content'>Some of my recent logo profile.</div>
+            </div>
             
             {/* Browser Template */}
             <div className='play-project animate__animated animate__fadeInUp'>
@@ -80,19 +88,12 @@ function Playground({darkMode}) {
                 <div className='play-project-content'>I always work with design system to make design consistent and hand-off 100% natural.</div>
             </div>
 
-            {/* Logofolio */}
-            <div className='play-project animate__animated animate__fadeInUp'>
-                <div className='play-project-image'> <img src={LogioFolio} width="100%" height="100%" alt=''/></div>
-                <div className='play-project-title'>Logofolio</div>
-                <div className='play-project-content'>Some of my recent logo profile.</div>
-            </div>
-
             {/* Flyer */}
-            {/* <div className='play-project'>
+            <div className='play-project'>
                 <div className='play-project-image'> <img src={FlyerFolio} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>Flyerfolio</div>
                 <div className='play-project-content'>Promotional flyer for products.</div>
-            </div> */}
+            </div>
 
             <div className="playground-view animate__animated animate__fadeInUp">VIEW MORE?</div>
             <div className='project-click oover animate__animated animate__fadeInUp' onClick={() => window.open('https://www.behance.net/josephdaniel1')}>Click Me</div>

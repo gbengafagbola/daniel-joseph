@@ -15,13 +15,12 @@ export default function Footer({darkMode}) {
 
           <div className='email oover' onClick={() => window.open('mailto:josephodaniel19@gmail.com?subject=Let%27s Chat!')}>josephodaniel19@gmail.com</div>
 
-
           <div className='line'></div>
 
           <div className="bottom-footer">
                
             <div className="copyright">
-            Made with ❤️ by Daniel Joseph. {year}
+            ❤️ by Me and Developed by <a class="oover" onClick={() => window.open('https://www.linkedin.com/in/gbengafagbola/')}>Fagbola Gbenga</a>. {year}
             </div>
 
 

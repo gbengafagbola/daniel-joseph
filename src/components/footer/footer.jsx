@@ -20,7 +20,7 @@ export default function Footer({darkMode}) {
           <div className="bottom-footer">
                
             <div className="copyright">
-            ❤️ by Me and Developed by <a class="oover" onClick={() => window.open('https://www.linkedin.com/in/gbengafagbola/')}>Fagbola Gbenga</a>. {year}
+            ❤️ by Me and Developed by <a href="https://www.linkedin.com/in/gbengafagbola/" class="oover" onClick={() => window.open('')}>Fagbola Gbenga</a>. {year}
             </div>
 
 

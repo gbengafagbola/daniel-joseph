@@ -1,7 +1,5 @@
 import './about.css';
 import DjAbout from '../../assets/images/dj-about.jpg';
-// import {ReactComponent as PlanetSvg} from '../../assets/svg/planet.svg';
-import Employment from '../../components/employment/employment';
 
 import Helmet from 'react-helmet';
 import 'animate.css'

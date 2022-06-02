@@ -1,6 +1,6 @@
 import Helmet from 'react-helmet';
 import BrowseTemplate from '../../assets/images/Browser Template.jpg';
-import NFTWaitlist from '../../assets/images/NFT WAITLIST.jpg';
+// import NFTWaitlist from '../../assets/images/NFT WAITLIST.jpg';
 import iXn from '../../assets/images/iXn.jpg';
 import Teflow from '../../assets/images/Teflow.jpg';
 import MoveBot from '../../assets/images/MoveBOT.jpg';
@@ -46,11 +46,11 @@ function Playground({darkMode}) {
             </div>
 
             {/* Browser Template */}
-            <div className='play-project animate__animated animate__fadeInUp'>
+            {/* <div className='play-project animate__animated animate__fadeInUp'>
                 <div className='play-project-image'> <img src={NFTWaitlist} width="100%" height="100%" alt=''/></div>
                 <div className='play-project-title'>NFT Waitlist</div>
                 <div className='play-project-content'>An NFT Market Place, more than art. Case Study coming soon.</div>
-            </div>
+            </div> */}
 
             {/* iXn*/}
             <div className='play-project animate__animated animate__fadeInUp'>
